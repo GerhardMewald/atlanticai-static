@@ -6,3 +6,8 @@ _wp-reference/
 *.backup
 *.before-*
 .DS_Store
+
+_header-audit/
+export_nl_ref/
+source_wp_exports/
+html.bak.*
