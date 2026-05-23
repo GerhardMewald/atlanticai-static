@@ -11,3 +11,7 @@ _header-audit/
 export_nl_ref/
 source_wp_exports/
 html.bak.*
+
+*.broken.*
+*.mixed.*
+*.pre-*
