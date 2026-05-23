@@ -1,4 +1,20 @@
 services:
+  atlanticai-static-staging:
+    image: nginx:alpine
+    container_name: atlanticai-static-staging
+    restart: unless-stopped
+    volumes:
+      - /opt/atlanticai-static-staging/html:/usr/share/nginx/html:ro
+    networks:
+      - n8n_default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=n8n_default"
+      - "traefik.http.routers.atlanticai-static-staging.rule=Host(`staging.atlanticai.eu`)"
+      - "traefik.http.routers.atlanticai-static-staging.entrypoints=websecure"
+      - "traefik.http.routers.atlanticai-static-staging.tls.certresolver=letsencrypt"
+      - "traefik.http.services.atlanticai-static-staging.loadbalancer.server.port=80"
+
   atlanticai-static:
     image: nginx:alpine
     container_name: atlanticai-static
