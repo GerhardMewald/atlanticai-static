@@ -1,0 +1,8 @@
+html.before-*/
+html.broken-*/
+_wp-reference/
+*.tar.gz
+*.bak
+*.backup
+*.before-*
+.DS_Store

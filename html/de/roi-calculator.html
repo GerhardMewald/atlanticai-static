@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Atlantic AI | ROI Calculator für Direct Booking, Payment &amp; AI Automation Impact</title>
+<meta content="Berechnen Sie den jährlichen Profit Impact von Direct Booking Shift, OTA-Kommissionsreduktion, AI-Upselling und Automatisierung mit Atlantic AI." name="description"/>
+<link href="https://static.atlanticai.eu/de/roi-calculator.html" rel="canonical"/>
+<link href="https://atlanticai.eu/en/" hreflang="en" rel="alternate"/>
+<link href="https://atlanticai.eu/de/" hreflang="de" rel="alternate"/>
+<link href="https://atlanticai.eu/fr/" hreflang="fr" rel="alternate"/>
+<link href="https://atlanticai.eu/es/" hreflang="es" rel="alternate"/>
+<link href="https://atlanticai.eu/pt/" hreflang="pt" rel="alternate"/>
+<link href="https://atlanticai.eu/it/" hreflang="it" rel="alternate"/>
+<link href="https://atlanticai.eu/nl/" hreflang="nl" rel="alternate"/>
+<link href="https://atlanticai.eu/no/" hreflang="no" rel="alternate"/>
+<link href="https://atlanticai.eu/sv/" hreflang="sv" rel="alternate"/>
+<link href="https://atlanticai.eu/da/" hreflang="da" rel="alternate"/>
+<link href="/assets/css/atlanticai.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/matomo.js"></script>
+<script defer="" src="/assets/js/atlanticai.js"></script>
+</head>
+<body>
+<header class="aa-site-header">
+<nav aria-label="Main navigation" class="aa-nav">
+<a class="aa-logo" href="/de/">Atlantic AI</a>
+<button class="aa-mobile-toggle" data-aa-menu-toggle aria-expanded="false" type="button">Menü</button>
+<div class="aa-menu" data-aa-menu hidden>
+      <a href="/de/">Home</a>
+      <a href="/de/use-cases.html">Use Cases</a>
+      <a href="https://ibe-demo.travelerstreehotel.com/" target="_blank" rel="noopener">Demo</a>
+      <a href="/de/pricing.html">Pricing</a>
+      <a href="/de/roi-calculator.html">ROI Calculator</a>
+<a href="https://clients.atlanticai.eu/" target="_blank" rel="noopener">Client Portal</a>
+      <a class="aa-start-cta" href="/start/">Start improving<br>your bottom line</a>
+    </div>
+<div class="aa-lang-wrap" data-aa-lang-wrap>
+<button class="aa-lang-btn" type="button" data-aa-lang-btn aria-expanded="false">
+<span>Deutsch</span>
+<span aria-hidden="true" class="aa-lang-arrow">⌄</span>
+</button>
+<div class="aa-lang-menu" data-aa-lang-menu hidden>
+        <a href="/en/roi-calculator.html">English</a>
+        <a href="/am/roi-calculator.html">አማርኛ</a>
+        <a href="/ar/roi-calculator.html">العربية</a>
+        <a href="/da/roi-calculator.html">Dansk</a>
+        <a href="/de/roi-calculator.html">Deutsch</a>
+        <a href="/es/roi-calculator.html">Español</a>
+        <a href="/fr/roi-calculator.html">Français</a>
+        <a href="/hi/roi-calculator.html">हिन्दी</a>
+        <a href="/id/roi-calculator.html">Bahasa Indonesia</a>
+        <a href="/it/roi-calculator.html">Italiano</a>
+        <a href="/nl/roi-calculator.html">Nederlands</a>
+        <a href="/no/roi-calculator.html">Norsk</a>
+        <a href="/pt/roi-calculator.html">Português</a>
+        <a href="/ru/roi-calculator.html">Русский</a>
+        <a href="/sv/roi-calculator.html">Svenska</a>
+        <a href="/sw/roi-calculator.html">Kiswahili</a>
+        <a href="/th/roi-calculator.html">ไทย</a>
+        <a href="/vi/roi-calculator.html">Tiếng Việt</a>
+        <a href="/zh/roi-calculator.html">简体中文</a>
+      </div>
+</div>
+</nav>
+</header>
+<style>
+	:root{
+		--aa-bg:#f6f1e8;
+		--aa-paper:#fbf8f2;
+		--aa-text:#1c1c1a;
+		--aa-muted:#6e685f;
+		--aa-line:#d9d0c3;
+		--aa-accent:#b08a5a;
+		--aa-accent-dark:#8f6a3d;
+		--aa-card:#f8f4ed;
+		--aa-shadow:0 10px 30px rgba(28,28,26,.06);
+		--aa-radius:22px;
+		--aa-max:1180px;
+	}
+	#aa-ai-hospitality{background:var(--aa-bg);color:var(--aa-text);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.55;}
+	#aa-ai-hospitality *{box-sizing:border-box;}
+	#aa-ai-hospitality a{color:inherit;text-decoration:none;}
+	#aa-ai-hospitality .aa-shell{width:100%;max-width:var(--aa-max);margin:0 auto;padding:0 24px;}
+	#aa-ai-hospitality .aa-section{padding:88px 0;border-top:1px solid rgba(217,208,195,.55);}
+	#aa-ai-hospitality .aa-section:first-of-type{border-top:none;}
+	#aa-ai-hospitality .aa-eyebrow{display:inline-block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--aa-muted);margin-bottom:20px;}
+	#aa-ai-hospitality .aa-kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--aa-muted);}
+	#aa-ai-hospitality .aa-hero{padding:84px 0 72px;}
+	#aa-ai-hospitality .aa-hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:42px;align-items:end;}
+	#aa-ai-hospitality h1,#aa-ai-hospitality h2,#aa-ai-hospitality h3,#aa-ai-hospitality h4{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.02em;margin:0;color:var(--aa-text);}
+	#aa-ai-hospitality h1{font-size:clamp(38px,6vw,72px);line-height:1.02;margin-bottom:22px;max-width:900px;}
+	#aa-ai-hospitality h2{font-size:clamp(28px,4vw,46px);line-height:1.08;margin-bottom:18px;}
+	#aa-ai-hospitality h3{font-size:clamp(21px,2.6vw,30px);line-height:1.14;margin-bottom:12px;}
+	#aa-ai-hospitality h4{font-size:19px;line-height:1.2;margin-bottom:10px;}
+	#aa-ai-hospitality p{margin:0 0 14px 0;font-size:16px;color:var(--aa-text);}
+	#aa-ai-hospitality .aa-lead{font-size:19px;line-height:1.6;max-width:900px;color:#2b2a27;}
+	#aa-ai-hospitality .aa-muted{color:var(--aa-muted);}
+	#aa-ai-hospitality .aa-hero-note{padding:26px 28px;background:rgba(251,248,242,.7);border:1px solid rgba(217,208,195,.9);border-radius:20px;box-shadow:var(--aa-shadow);}
+	#aa-ai-hospitality .aa-hero-note p:last-child{margin-bottom:0;}
+	#aa-ai-hospitality .aa-btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;}
+	#aa-ai-hospitality .aa-btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:999px;font-size:14px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--aa-line);background:transparent;transition:.24s ease;cursor:pointer;}
+	#aa-ai-hospitality .aa-btn:hover{border-color:var(--aa-accent);color:var(--aa-accent-dark);transform:translateY(-1px);}
+	#aa-ai-hospitality .aa-btn-primary{background:var(--aa-text);border-color:var(--aa-text);color:#fff;}
+	#aa-ai-hospitality .aa-btn-primary:hover{background:#000;border-color:#000;color:#fff;}
+	#aa-ai-hospitality .aa-intro-grid,#aa-ai-hospitality .aa-two-col{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+	#aa-ai-hospitality .aa-panel{background:var(--aa-paper);border:1px solid rgba(217,208,195,.9);border-radius:var(--aa-radius);padding:28px;box-shadow:var(--aa-shadow);}
+	#aa-ai-hospitality .aa-panel-soft{background:rgba(251,248,242,.65);}
+	#aa-ai-hospitality .aa-list{margin:0;padding:0;list-style:none;}
+	#aa-ai-hospitality .aa-list li{position:relative;padding-left:18px;margin-bottom:12px;color:#2f2d29;}
+	#aa-ai-hospitality .aa-list li:before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--aa-accent);}
+	#aa-ai-hospitality .aa-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+	#aa-ai-hospitality .aa-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+	#aa-ai-hospitality .aa-card{background:var(--aa-card);border:1px solid rgba(217,208,195,.85);border-radius:24px;padding:24px;min-height:100%;box-shadow:var(--aa-shadow);}
+	#aa-ai-hospitality .aa-card .aa-meta{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--aa-muted);margin-bottom:12px;}
+	#aa-ai-hospitality .aa-card p:last-child{margin-bottom:0;}
+	#aa-ai-hospitality .aa-split{display:grid;grid-template-columns:.95fr 1.05fr;gap:34px;align-items:start;}
+	#aa-ai-hospitality .aa-metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:26px;}
+	#aa-ai-hospitality .aa-metric{background:var(--aa-paper);border:1px solid rgba(217,208,195,.88);border-radius:18px;padding:22px 20px;}
+	#aa-ai-hospitality .aa-metric-value{font-family:Georgia,"Times New Roman",serif;font-size:34px;line-height:1;margin-bottom:10px;}
+	#aa-ai-hospitality .aa-metric-label{font-size:13px;color:var(--aa-muted);line-height:1.45;}
+	#aa-ai-hospitality .aa-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+	#aa-ai-hospitality .aa-video-card{background:var(--aa-paper);border:1px solid rgba(217,208,195,.9);border-radius:24px;padding:18px;box-shadow:var(--aa-shadow);}
+	#aa-ai-hospitality .aa-video-frame{position:relative;width:100%;padding-top:56.25%;border-radius:18px;overflow:hidden;background:#d9d0c3;margin-bottom:16px;}
+	#aa-ai-hospitality .aa-video-frame video{position:absolute;inset:0;width:100%;height:100%;border:0;}
+	#aa-ai-hospitality .aa-stage-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:26px;}
+	#aa-ai-hospitality .aa-stage{padding:20px 18px;background:var(--aa-paper);border:1px solid rgba(217,208,195,.86);border-radius:20px;min-height:220px;box-shadow:var(--aa-shadow);}
+	#aa-ai-hospitality .aa-stage-index{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--aa-muted);margin-bottom:16px;}
+	#aa-ai-hospitality .aa-stage h4{margin-bottom:10px;}
+	#aa-ai-hospitality .aa-stage p{font-size:15px;color:#2e2c28;}
+	#aa-ai-hospitality .aa-formula{font-family:Georgia,"Times New Roman",serif;font-size:27px;line-height:1.3;padding:24px 0 4px;}
+	#aa-ai-hospitality details{border-top:1px solid rgba(217,208,195,.86);padding:18px 0;}
+	#aa-ai-hospitality details:last-child{border-bottom:1px solid rgba(217,208,195,.86);}
+	#aa-ai-hospitality summary{list-style:none;cursor:pointer;font-family:Georgia,"Times New Roman",serif;font-size:24px;line-height:1.2;padding-right:30px;position:relative;}
+	#aa-ai-hospitality summary::-webkit-details-marker{display:none;}
+	#aa-ai-hospitality summary:after{content:"+";position:absolute;right:0;top:0;font-size:24px;color:var(--aa-muted);}
+	#aa-ai-hospitality details[open] summary:after{content:"–";}
+	#aa-ai-hospitality .aa-source-list{margin:18px 0 0 0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;}
+	#aa-ai-hospitality .aa-source-list a{font-size:14px;color:var(--aa-muted);text-decoration:underline;text-underline-offset:3px;}
+	#aa-ai-hospitality .aa-cta-box{text-align:center;padding:40px 28px;background:var(--aa-paper);border:1px solid rgba(217,208,195,.9);border-radius:28px;box-shadow:var(--aa-shadow);}
+	@media (max-width:1100px){
+		#aa-ai-hospitality .aa-hero-grid,#aa-ai-hospitality .aa-intro-grid,#aa-ai-hospitality .aa-two-col,#aa-ai-hospitality .aa-split{grid-template-columns:1fr;}
+		#aa-ai-hospitality .aa-grid-3,#aa-ai-hospitality .aa-video-grid{grid-template-columns:1fr 1fr;}
+		#aa-ai-hospitality .aa-metric-grid{grid-template-columns:repeat(2,1fr);}
+		#aa-ai-hospitality .aa-stage-grid{grid-template-columns:repeat(2,1fr);}
+	}
+	@media (max-width:767px){
+		#aa-ai-hospitality .aa-shell{padding:0 18px;}
+		#aa-ai-hospitality .aa-hero{padding:64px 0 52px;}
+		#aa-ai-hospitality .aa-section{padding:62px 0;}
+		#aa-ai-hospitality .aa-grid-3,#aa-ai-hospitality .aa-grid-2,#aa-ai-hospitality .aa-video-grid,#aa-ai-hospitality .aa-metric-grid,#aa-ai-hospitality .aa-stage-grid,#aa-ai-hospitality .aa-source-list{grid-template-columns:1fr;}
+		#aa-ai-hospitality .aa-panel,#aa-ai-hospitality .aa-card,#aa-ai-hospitality .aa-video-card,#aa-ai-hospitality .aa-stage{padding:22px;}
+		#aa-ai-hospitality summary{font-size:20px;}
+	}
+
+.aa-start-cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  padding:0 18px;
+  border:1px solid #b08a5a;
+  border-radius:999px;
+  color:#8f6a3d !important;
+  font-weight:600;
+  text-decoration:none !important;
+  white-space:nowrap;
+  line-height:1;
+}
+.aa-start-cta:hover{
+  background:#b08a5a;
+  color:#fff !important;
+}
+
+
+/* Atlantic AI unified header fix */
+.aa-nav{
+  display:flex !important;
+  align-items:center !important;
+  gap:22px !important;
+  max-width:1180px !important;
+  margin:0 auto !important;
+  padding:18px 24px !important;
+}
+.aa-menu{
+  display:flex !important;
+  align-items:center !important;
+  gap:20px !important;
+  flex:1 1 auto !important;
+  min-width:0 !important;
+}
+.aa-menu a{
+  white-space:nowrap !important;
+  text-decoration:none !important;
+}
+.aa-menu .aa-start-cta{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  padding:9px 18px !important;
+  border:1px solid #b08a5a !important;
+  border-radius:999px !important;
+  color:#8f6a3d !important;
+  font-weight:600 !important;
+  line-height:1 !important;
+}
+.aa-lang-wrap{
+  flex:0 0 auto !important;
+}
+
+</style>
+<main>
+<section class="aa-lp">
+<div class="aa-shell">
+<div class="aa-roi-sankey-wrap" id="aa-roi-sankey-v1">
+<style>
+    #aa-roi-sankey-v1{
+      --aa-card:#ffffff; --aa-text:#1f1f1f; --aa-muted:#6f6f6f; --aa-line:#e6e1da; --aa-line-dark:#cfc3b4;
+      --aa-shadow:0 10px 30px rgba(0,0,0,.045); --aa-max:1180px;
+      font-family:Raleway,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+      color:var(--aa-text); margin:0 auto 28px;
+    }
+    #aa-roi-sankey-v1 *{box-sizing:border-box;}
+    #aa-roi-sankey-v1 .aa-sankey-shell{
+      max-width:var(--aa-max); margin:0 auto; background:linear-gradient(180deg,#fff 0%,#f7f3ed 100%);
+      border:1px solid var(--aa-line); border-radius:26px; padding:26px; box-shadow:var(--aa-shadow); overflow:hidden;
+    }
+    #aa-roi-sankey-v1 .aa-sankey-head{display:grid; grid-template-columns:1fr auto; gap:18px; align-items:end; margin-bottom:22px;}
+    #aa-roi-sankey-v1 .aa-kicker{font-size:12px; line-height:1.4; letter-spacing:.14em; text-transform:uppercase; color:var(--aa-muted); font-weight:700; margin-bottom:10px;}
+    #aa-roi-sankey-v1 h1,#aa-roi-sankey-v1 h2{margin:0; font-size:clamp(30px,4.5vw,56px); line-height:1.05; letter-spacing:-.035em; font-weight:400; max-width:850px; font-family:Georgia,"Times New Roman",serif;}
+    #aa-roi-sankey-v1 .aa-sankey-sub{margin:12px 0 0; max-width:880px; font-size:16px; line-height:1.6; color:#4b4b4b;}
+    #aa-roi-sankey-v1 .aa-scenario-pill{border:1px solid var(--aa-line-dark); border-radius:999px; padding:10px 14px; background:#fff; font-size:13px; color:#3c3c3c; white-space:nowrap;}
+    #aa-roi-sankey-v1 .aa-kpi-row{display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin:0 0 20px;}
+    #aa-roi-sankey-v1 .aa-kpi{background:rgba(255,255,255,.78); border:1px solid var(--aa-line); border-radius:18px; padding:14px; min-height:104px;}
+    #aa-roi-sankey-v1 .aa-kpi-main{background:#ebe4da; border-color:#d7cbbd;}
+    #aa-roi-sankey-v1 .aa-kpi-label{font-size:11px; line-height:1.35; letter-spacing:.12em; text-transform:uppercase; color:#716a62; font-weight:700; margin-bottom:8px;}
+    #aa-roi-sankey-v1 .aa-kpi-value{font-size:clamp(22px,2.3vw,32px); line-height:1.05; letter-spacing:-.035em; font-weight:500;}
+    #aa-roi-sankey-v1 .aa-kpi-note{margin-top:7px; font-size:12px; line-height:1.4; color:#666;}
+    #aa-roi-sankey-v1 .aa-sankey-board{background:rgba(255,255,255,.72); border:1px solid var(--aa-line); border-radius:22px; padding:14px; overflow:hidden;}
+    #aa-roi-sankey-v1 .aa-svg-wrap{width:100%; overflow:hidden;} #aa-roi-sankey-v1 svg{display:block; width:100%; height:auto;}
+    #aa-roi-sankey-v1 .aa-flow-main{fill:none;stroke:#d8d0c6;stroke-opacity:.72;stroke-linecap:round;}
+    #aa-roi-sankey-v1 .aa-flow-positive{fill:none;stroke:#bdb2a4;stroke-opacity:.78;stroke-linecap:round;}
+    #aa-roi-sankey-v1 .aa-flow-cost{fill:none;stroke:#e4ddd4;stroke-opacity:.86;stroke-linecap:round;}
+    #aa-roi-sankey-v1 .aa-flow-profit{fill:none;stroke:#9f9384;stroke-opacity:.82;stroke-linecap:round;}
+    #aa-roi-sankey-v1 .aa-node{fill:#fff;stroke:#d4cabe;stroke-width:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.03));}
+    #aa-roi-sankey-v1 .aa-node-soft{fill:#faf8f4;} #aa-roi-sankey-v1 .aa-node-profit{fill:#ebe4da;stroke:#c7baaa;} #aa-roi-sankey-v1 .aa-node-cost{fill:#f5f1eb;} #aa-roi-sankey-v1 .aa-node-final{fill:#1f1f1f;stroke:#1f1f1f;}
+    #aa-roi-sankey-v1 .aa-node-title{font-size:10.5px;font-weight:700;fill:#1f1f1f;} #aa-roi-sankey-v1 .aa-node-value{font-size:15px;font-weight:500;fill:#1f1f1f;} #aa-roi-sankey-v1 .aa-node-small{font-size:9px;fill:#666;}
+    #aa-roi-sankey-v1 .aa-node-final-text,#aa-roi-sankey-v1 .aa-node-final-value,#aa-roi-sankey-v1 .aa-node-final-small{fill:#fff;} #aa-roi-sankey-v1 .aa-node-final-value{font-size:15px;font-weight:500;}
+    #aa-roi-sankey-v1 .aa-col-label{font-size:9px; letter-spacing:.12em; text-transform:uppercase; font-weight:800; fill:#6f6f6f;}
+    #aa-roi-sankey-v1 .aa-explain-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:16px;border:1px solid var(--aa-line);border-radius:18px;background:#fff;overflow:hidden;}
+    #aa-roi-sankey-v1 .aa-explain{padding:14px;border-right:1px solid var(--aa-line);} #aa-roi-sankey-v1 .aa-explain:last-child{border-right:0;}
+    #aa-roi-sankey-v1 .aa-explain strong{display:block;font-size:14px;line-height:1.3;margin-bottom:6px;} #aa-roi-sankey-v1 .aa-explain span{display:block;font-size:13px;line-height:1.45;color:#555;}
+    #aa-roi-sankey-v1 .aa-footnote{margin-top:14px;font-size:15px;font-weight:600;line-height:1.6;color:#6f6f6f;}
+    @media(max-width:980px){#aa-roi-sankey-v1 .aa-sankey-head{grid-template-columns:1fr;}#aa-roi-sankey-v1 .aa-scenario-pill{width:fit-content;}#aa-roi-sankey-v1 .aa-kpi-row{grid-template-columns:repeat(2,minmax(0,1fr));}#aa-roi-sankey-v1 .aa-explain-row{grid-template-columns:1fr 1fr;}}
+    @media(max-width:680px){#aa-roi-sankey-v1 .aa-sankey-shell{padding:18px;border-radius:22px;}#aa-roi-sankey-v1 .aa-kpi-row,#aa-roi-sankey-v1 .aa-explain-row{grid-template-columns:1fr;}#aa-roi-sankey-v1 .aa-explain{border-right:0;border-bottom:1px solid var(--aa-line);}#aa-roi-sankey-v1 .aa-explain:last-child{border-bottom:0;}#aa-roi-sankey-v1 .aa-sankey-board{padding:10px;}}
+  </style>
+<div class="aa-sankey-shell">
+<div class="aa-sankey-head">
+<div>
+<div class="aa-kicker">USALI-style Value Bridge</div>
+<h1>Woher Ihr Profit Impact kommt.</h1>
+<p class="aa-sankey-sub">Das Modell trennt Room Revenue, OTA Dependency, shifted direct revenue, Commission Recovery, AI-driven Upsell, Workload Savings und Atlantic AI Cost — und zeigt dann, wie der kombinierte Effekt nach modellierter Performance Participation in Operating Profit fließt.</p>
+</div>
+<div class="aa-scenario-pill" id="aaSankeyScenarioPill">Scenario lädt…</div>
+</div>
+<div class="aa-kpi-row">
+<div class="aa-kpi aa-kpi-main"><div class="aa-kpi-label">Net Profit Impact</div><div class="aa-kpi-value" id="aaSkNetImpact">€0</div><div class="aa-kpi-note" id="aaSkRosNote">0,0% RoS Uplift</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">Shifted Direct Revenue</div><div class="aa-kpi-value" id="aaSkShiftedRevenue">€0</div><div class="aa-kpi-note" id="aaSkShiftNote">0% Direct-Share Gain</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">Commission recovered</div><div class="aa-kpi-value" id="aaSkCommissionSaved">€0</div><div class="aa-kpi-note" id="aaSkCommissionNote">OTA Leakage reduziert</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">AI-/Automation-Wert</div><div class="aa-kpi-value" id="aaSkAutomationImpact">€0</div><div class="aa-kpi-note" id="aaSkAutomationNote">Vor Participation</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">Investment Multiple</div><div class="aa-kpi-value" id="aaSkMultiple">0.0x</div><div class="aa-kpi-note" id="aaSkPayback">0,0 Monate Payback</div></div>
+</div>
+<div class="aa-sankey-board">
+<div class="aa-svg-wrap">
+<svg aria-label="Dynamic Sankey diagram showing Atlantic AI ROI value flow" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 1020 470">
+<text class="aa-col-label" x="20" y="24">Revenue heute</text><text class="aa-col-label" x="205" y="24">Shift</text><text class="aa-col-label" x="402" y="24">Economic Impact</text><text class="aa-col-label" x="596" y="24">USALI Impact</text><text class="aa-col-label" x="800" y="24">Outcome</text>
+<path class="aa-flow-main" d="M140,118 C170,118 180,105 205,105" id="aaFlowTotalToOta" stroke-width="64"></path>
+<path class="aa-flow-cost" d="M140,202 C170,202 180,205 205,205" id="aaFlowOtaRemain" stroke-width="34"></path>
+<path class="aa-flow-main" d="M140,228 C170,228 180,312 205,312" id="aaFlowTotalToDirect" stroke-width="44"></path>
+<path class="aa-flow-positive" d="M315,105 C350,105 378,96 405,96" id="aaFlowOtaToShift" stroke-width="34"></path>
+<path class="aa-flow-positive" d="M515,96 C545,96 555,82 586,82" id="aaFlowShiftCommission" stroke-width="25"></path>
+<path class="aa-flow-positive" d="M515,164 C545,164 555,164 586,164" id="aaFlowShiftUpsell" stroke-width="30"></path>
+<path class="aa-flow-cost" d="M515,255 C545,255 555,255 586,255" id="aaFlowShiftCost" stroke-width="16"></path>
+<path class="aa-flow-positive" d="M515,366 C545,366 555,350 586,350" id="aaFlowFte" stroke-width="14"></path>
+<path class="aa-flow-profit" d="M696,82 C720,82 735,150 760,150" id="aaFlowCommissionToGop" stroke-width="23"></path>
+<path class="aa-flow-profit" d="M696,164 C720,164 735,150 760,150" id="aaFlowUpsellToGop" stroke-width="28"></path>
+<path class="aa-flow-profit" d="M696,350 C720,350 735,150 760,150" id="aaFlowFteToGop" stroke-width="14"></path>
+<path class="aa-flow-cost" d="M696,255 C720,255 735,278 760,278" id="aaFlowCostToOutcome" stroke-width="16"></path>
+<path class="aa-flow-profit" d="M870,150 C890,150 898,170 910,170" id="aaFlowGopToNet" stroke-width="42"></path>
+<path class="aa-flow-cost" d="M870,278 C890,278 898,215 910,215" id="aaFlowCostDeduct" stroke-width="18"></path>
+<rect class="aa-node aa-node-soft" height="210" rx="14" width="120" x="20" y="64"></rect>
+<text class="aa-node-title" x="36" y="94">Room Revenue</text><text class="aa-node-value" id="aaNodeTotalRevenue" x="36" y="120">€0</text>
+<text class="aa-node-small" id="aaNodeRoomsAdrOcc" x="36" y="142"><tspan dy="0" x="36">70 Zimmer</tspan><tspan dy="13" x="36">€90 ADR</tspan><tspan dy="13" x="36">65% Occ</tspan></text>
+<line stroke="#e2d9cf" x1="36" x2="124" y1="177" y2="177"></line><text class="aa-node-title" x="36" y="202">OTA</text><text class="aa-node-value" id="aaNodeOtaRevenue" x="36" y="224">€0</text><text class="aa-node-title" x="36" y="252">Direct</text><text class="aa-node-value" id="aaNodeDirectRevenue" x="36" y="272">€0</text>
+<rect class="aa-node" height="86" rx="12" width="110" x="205" y="62"></rect><text class="aa-node-title" x="221" y="88">Shifted OTA</text><text class="aa-node-value" id="aaNodeShifted" x="221" y="112">€0</text><text class="aa-node-small" id="aaNodeShiftPct" x="221" y="134">0% shifted</text>
+<rect class="aa-node aa-node-cost" height="86" rx="12" width="110" x="205" y="162"></rect><text class="aa-node-title" x="221" y="188">Remain OTA</text><text class="aa-node-value" id="aaNodeRemainingOta" x="221" y="212">€0</text><text class="aa-node-small" id="aaNodeRemainingOtaPct" x="221" y="234">0% OTA</text>
+<rect class="aa-node" height="86" rx="12" width="110" x="205" y="270"></rect><text class="aa-node-title" x="221" y="296">Existing Direct</text><text class="aa-node-value" id="aaNodeExistingDirect" x="221" y="320">€0</text><text class="aa-node-small" id="aaNodeExistingDirectPct" x="221" y="342">0% direct</text>
+<rect class="aa-node aa-node-profit" height="86" rx="12" width="110" x="405" y="44"></rect><text class="aa-node-title" x="421" y="70">Commission</text><text class="aa-node-value" id="aaNodeCommissionSaved" x="421" y="94">€0</text><text class="aa-node-small" id="aaNodeCommissionRate" x="421" y="116">15.0% OTA</text>
+<rect class="aa-node aa-node-profit" height="86" rx="12" width="110" x="405" y="136"></rect><text class="aa-node-title" x="421" y="162">Upsell</text><text class="aa-node-value" id="aaNodeUpsell" x="421" y="186">€0</text><text class="aa-node-small" id="aaNodeUpsellPct" x="421" y="208">7,5% Revenue</text>
+<rect class="aa-node aa-node-cost" height="86" rx="12" width="110" x="405" y="228"></rect><text class="aa-node-title" x="421" y="254">AAI Cost</text><text class="aa-node-value" id="aaNodeAiCost" x="421" y="278">−€0</text><text class="aa-node-small" x="421" y="300">€5/key + 2% + 2%</text>
+<rect class="aa-node aa-node-profit" height="76" rx="12" width="110" x="405" y="330"></rect><text class="aa-node-title" x="421" y="354">FTE Saving</text><text class="aa-node-value" id="aaNodeFteSaving" x="421" y="378">€0</text><text class="aa-node-small" id="aaNodeFteText" x="421" y="398">0.5 FTE</text>
+<rect class="aa-node" height="76" rx="12" width="110" x="586" y="46"></rect><text class="aa-node-title" x="602" y="70">Dist. Cost</text><text class="aa-node-value" id="aaNodeDistImpact" x="602" y="94">€0</text><text class="aa-node-small" x="602" y="114">Reduction</text>
+<rect class="aa-node" height="76" rx="12" width="110" x="586" y="136"></rect><text class="aa-node-title" x="602" y="160">Revenue</text><text class="aa-node-value" id="aaNodeRoomsIncrease" x="602" y="184">€0</text><text class="aa-node-small" x="602" y="204">Upsell</text>
+<rect class="aa-node aa-node-cost" height="76" rx="12" width="110" x="586" y="228"></rect><text class="aa-node-title" x="602" y="252">Cost</text><text class="aa-node-value" id="aaNodeCostDeducted" x="602" y="276">−€0</text><text class="aa-node-small" id="aaNodeCostBasis" x="602" y="296">AAI Participation</text>
+<rect class="aa-node" height="76" rx="12" width="110" x="586" y="322"></rect><text class="aa-node-title" x="602" y="346">Ops Saving</text><text class="aa-node-value" id="aaNodeOpsSaving" x="602" y="370">€0</text><text class="aa-node-small" x="602" y="390">Workload</text>
+<rect class="aa-node aa-node-profit" height="88" rx="12" width="110" x="760" y="106"></rect><text class="aa-node-title" x="776" y="134">Gross Benefit</text><text class="aa-node-value" id="aaNodeGrossBenefit" x="776" y="160">€0</text><text class="aa-node-small" x="776" y="182">vor Cost</text>
+<rect class="aa-node aa-node-cost" height="88" rx="12" width="110" x="760" y="238"></rect><text class="aa-node-title" x="776" y="266">Investment</text><text class="aa-node-value" id="aaNodeInvestment" x="776" y="292">−€0</text><text class="aa-node-small" id="aaNodeEffectiveCost" x="776" y="314">0,0% Revenue</text>
+<rect class="aa-node aa-node-final" height="112" rx="12" width="106" x="910" y="140"></rect><text class="aa-node-title aa-node-final-text" x="924" y="166">Net Profit</text><text class="aa-node-final-value" id="aaNodeNetProfit" x="924" y="192">€0</text><text class="aa-node-small aa-node-final-small" id="aaNodeOutcomeKpis" x="924" y="218">0,0% RoS</text><text class="aa-node-small aa-node-final-small" id="aaNodeOutcomeMultiple" x="924" y="236">0.0x ROI</text>
+</svg>
+</div>
+<div class="aa-explain-row"><div class="aa-explain"><strong>Margin Recovery</strong><span>Revenue aus teuren OTA Channels in den eigenen Direct Channel verlagern.</span></div><div class="aa-explain"><strong>Revenue Expansion</strong><span>AI-gestütztes Upselling erhöht Revenue per Guest und wird vor Performance Participation modelliert.</span></div><div class="aa-explain"><strong>Operational Efficiency</strong><span>Automation reduziert repetitive Guest Communication und manuelle Handovers.</span></div><div class="aa-explain"><strong>USALI Impact</strong><span>Der Effekt fließt durch Distribution Cost, Rooms Revenue, Operating Profit und Net Profit nach Atlantic AI Cost.</span></div></div>
+<div class="aa-footnote">Diese Sankey-Visualisierung aktualisiert sich dynamisch, wenn Sie die ROI-Calculator-Inputs ändern. Beträge sind annualisiert und auf ganze Euro gerundet. Der geschätzte Net Profit Impact enthält Infrastructure Cost, 2% auf shifted direct revenue und modellierte 2% Participation auf messbaren AI-/Automation-Wert.</div>
+</div>
+</div>
+</div>
+<div class="aa-roi-wrap" id="aa-roi-calculator">
+<style>
+    #aa-roi-calculator{--aa-bg:#f7f5f2;--aa-card:#ffffff;--aa-text:#1f1f1f;--aa-muted:#6f6f6f;--aa-line:#e6e1da;--aa-accent:#1f1f1f;--aa-accent-2:#f1ece4;--aa-shadow:0 8px 24px rgba(0,0,0,.06);--aa-radius:18px;--aa-max:1180px;font-family:Raleway,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--aa-text);}
+    #aa-roi-calculator *{box-sizing:border-box;} #aa-roi-calculator .aa-roi-shell{max-width:var(--aa-max);margin:0 auto;background:var(--aa-bg);border:1px solid var(--aa-line);border-radius:24px;padding:28px;}
+    #aa-roi-calculator .aa-roi-head{margin-bottom:22px;} #aa-roi-calculator .aa-roi-kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--aa-muted);margin-bottom:10px;}
+    #aa-roi-calculator .aa-roi-title{font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,4vw,52px);line-height:1.08;font-weight:400;margin:0 0 14px 0;max-width:980px;}
+    #aa-roi-calculator .aa-roi-sub{font-size:clamp(16px,1.5vw,22px);line-height:1.5;color:var(--aa-muted);max-width:960px;margin:0;}
+    #aa-roi-calculator .aa-roi-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:22px;align-items:start;} #aa-roi-calculator .aa-card{background:var(--aa-card);border:1px solid var(--aa-line);border-radius:var(--aa-radius);box-shadow:var(--aa-shadow);}
+    #aa-roi-calculator .aa-form,#aa-roi-calculator .aa-results{padding:22px;} #aa-roi-calculator .aa-section-title{font-size:24px;line-height:1.2;font-weight:500;margin:0 0 18px 0;}
+    #aa-roi-calculator .aa-input-section{border-top:1px solid var(--aa-line);padding-top:18px;margin-top:20px;} #aa-roi-calculator .aa-input-section:first-of-type{border-top:none;padding-top:0;margin-top:0;}
+    #aa-roi-calculator .aa-input-section-title{font-size:14px;line-height:1.3;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6c6459;margin:0 0 14px 0;}
+    #aa-roi-calculator .aa-field-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;} #aa-roi-calculator .aa-field{display:flex;flex-direction:column;gap:8px;} #aa-roi-calculator .aa-field.aa-span-2{grid-column:1/-1;}
+    #aa-roi-calculator .aa-label{font-size:13px;line-height:1.35;color:var(--aa-muted);} #aa-roi-calculator .aa-input,#aa-roi-calculator .aa-select{width:100%;border:1px solid var(--aa-line);border-radius:14px;background:#fff;color:var(--aa-text);min-height:52px;padding:0 14px;font-size:16px;outline:none;transition:border-color .2s ease,box-shadow .2s ease;}
+    #aa-roi-calculator .aa-input:focus,#aa-roi-calculator .aa-select:focus{border-color:#b8afa3;box-shadow:0 0 0 4px rgba(31,31,31,.06);} #aa-roi-calculator .aa-help{font-size:12px;line-height:1.45;color:var(--aa-muted);margin-top:2px;}
+    #aa-roi-calculator .aa-pricing-box{background:#faf8f4;border:1px solid var(--aa-line);border-radius:16px;padding:16px;display:grid;gap:10px;} #aa-roi-calculator .aa-pricing-title{font-size:15px;line-height:1.3;font-weight:600;margin-bottom:2px;}
+    #aa-roi-calculator .aa-pricing-row{display:flex;justify-content:space-between;gap:14px;border-top:1px solid var(--aa-line);padding-top:10px;font-size:13px;line-height:1.4;color:var(--aa-muted);} #aa-roi-calculator .aa-pricing-row strong{color:var(--aa-text);white-space:nowrap;font-weight:600;text-align:right;}
+    #aa-roi-calculator .aa-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:18px;} #aa-roi-calculator .aa-btn{appearance:none;border:none;border-radius:999px;min-height:50px;padding:0 18px;font-size:14px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;transition:transform .15s ease,opacity .15s ease,background .15s ease,color .15s ease;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;}
+    #aa-roi-calculator .aa-btn:hover{transform:translateY(-1px);} #aa-roi-calculator .aa-btn-primary{background:var(--aa-accent);color:#fff;} #aa-roi-calculator .aa-btn-secondary{background:transparent;color:var(--aa-accent);border:1px solid #b7aea2;}
+    #aa-roi-calculator .aa-note,#aa-roi-calculator .aa-disclaimer{font-size:12px;line-height:1.5;color:var(--aa-muted);margin-top:12px;} #aa-roi-calculator .aa-impact{background:linear-gradient(180deg,#fff 0%,#fbf9f5 100%);border:1px solid var(--aa-line);border-radius:18px;padding:18px;margin-bottom:16px;} #aa-roi-calculator .aa-impact-shift{background:linear-gradient(180deg,#ffffff 0%,#efe8de 100%);border-color:#d7cbbd;}
+    #aa-roi-calculator .aa-impact-kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--aa-muted);margin-bottom:8px;} #aa-roi-calculator .aa-impact-total{font-size:clamp(38px,4vw,60px);line-height:1;font-weight:500;margin:0 0 10px 0;} #aa-roi-calculator .aa-impact-sub{font-size:15px;line-height:1.5;color:var(--aa-muted);margin:0;}
+    #aa-roi-calculator .aa-kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0;} #aa-roi-calculator .aa-kpi{background:var(--aa-accent-2);border:1px solid var(--aa-line);border-radius:16px;padding:14px;min-height:104px;} #aa-roi-calculator .aa-kpi-hero{background:#ebe4da;border-color:#d7cbbd;}
+    #aa-roi-calculator .aa-kpi-label{font-size:12px;line-height:1.4;color:var(--aa-muted);text-transform:uppercase;letter-spacing:.12em;margin-bottom:8px;} #aa-roi-calculator .aa-kpi-value{font-size:28px;line-height:1.1;font-weight:500;} #aa-roi-calculator .aa-kpi-hero .aa-kpi-value{font-size:32px;}
+    #aa-roi-calculator .aa-result-section{background:#fff;border:1px solid var(--aa-line);border-radius:16px;padding:16px;margin-top:14px;} #aa-roi-calculator .aa-result-section-title{font-size:14px;line-height:1.3;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6c6459;margin:0 0 10px 0;}
+    #aa-roi-calculator .aa-breakdown{display:grid;gap:0;} #aa-roi-calculator .aa-metric{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--aa-line);} #aa-roi-calculator .aa-metric:last-child{border-bottom:none;padding-bottom:0;}
+    #aa-roi-calculator .aa-metric-name{font-size:16px;line-height:1.35;font-weight:500;margin-bottom:4px;} #aa-roi-calculator .aa-metric-desc{font-size:13px;line-height:1.45;color:var(--aa-muted);} #aa-roi-calculator .aa-metric-value{font-size:20px;line-height:1.2;font-weight:500;white-space:nowrap;text-align:right;} #aa-roi-calculator .aa-negative{color:#6b1d1d;}
+    #aa-roi-calculator .aa-demo-box{border:1px solid var(--aa-line);background:#fff;border-radius:16px;padding:16px;margin-top:16px;} #aa-roi-calculator .aa-demo-title{font-size:18px;line-height:1.3;margin:0 0 8px 0;font-weight:500;} #aa-roi-calculator .aa-demo-copy{font-size:14px;line-height:1.55;color:var(--aa-muted);margin:0 0 12px 0;}
+    @media(max-width:980px){#aa-roi-calculator .aa-roi-grid{grid-template-columns:1fr;}} @media(max-width:680px){#aa-roi-calculator .aa-roi-shell{padding:18px;}#aa-roi-calculator .aa-field-grid,#aa-roi-calculator .aa-kpi-grid{grid-template-columns:1fr;}#aa-roi-calculator .aa-metric{flex-direction:column;align-items:flex-start;}#aa-roi-calculator .aa-metric-value{text-align:left;white-space:normal;}#aa-roi-calculator .aa-pricing-row{flex-direction:column;gap:4px;}#aa-roi-calculator .aa-pricing-row strong{text-align:left;}}
+  </style>
+<div class="aa-roi-shell">
+<div class="aa-roi-head">
+<div class="aa-roi-kicker">Atlantic AI ROI Calculator</div>
+<h2 class="aa-roi-title">Sehen Sie den messbaren Profit Impact von Direct Booking Enablement und AI-driven Automation.</h2>
+<p class="aa-roi-sub">Auf Basis einer Standard-Hotel-P&amp;L-Logik schätzt dieser Calculator den jährlichen Net-Profit-Impact aus Direct Booking Shift, automatisiertem Upselling und reduziertem manuellem Guest-Communication-Workload.</p>
+</div>
+<div class="aa-roi-grid">
+<div class="aa-card aa-form">
+<h3 class="aa-section-title">Calculator Inputs</h3>
+<div class="aa-input-section"><div class="aa-input-section-title">1 / Hotelparameter</div><div class="aa-field-grid">
+<div class="aa-field"><label class="aa-label" for="aaRooms">Zimmer</label><input class="aa-input" id="aaRooms" min="1" step="1" type="number" value="70"/></div>
+<div class="aa-field"><label class="aa-label" for="aaAdr">ADR (€)</label><input class="aa-input" id="aaAdr" min="1" step="1" type="number" value="90"/></div>
+<div class="aa-field"><label class="aa-label" for="aaOcc">Occupancy (%)</label><input class="aa-input" id="aaOcc" max="100" min="1" step="1" type="number" value="65"/></div>
+<div class="aa-field"><label class="aa-label" for="aaOtaCommission">Durchschnittliche OTA Commission (%)</label><input class="aa-input" id="aaOtaCommission" max="40" min="0" step="0.5" type="number" value="15"/></div>
+<div class="aa-field"><label class="aa-label" for="aaCurrentDirect">Aktueller Direct Share (%)</label><input class="aa-input" id="aaCurrentDirect" max="100" min="0" step="1" type="number" value="5"/></div>
+<div class="aa-field"><label class="aa-label" for="aaFutureDirect">Ziel-Direct-Share (%)</label><input class="aa-input" id="aaFutureDirect" max="100" min="0" step="1" type="number" value="40"/></div>
+</div></div>
+<div class="aa-input-section"><div class="aa-input-section-title">2 / AI-Agent- &amp; Automation-Parameter</div><div class="aa-field-grid">
+<div class="aa-field"><label class="aa-label" for="aaUpsellPct">Upsell Revenue Uplift auf Room Revenue (%)</label><input class="aa-input" id="aaUpsellPct" max="30" min="0" step="0.5" type="number" value="7.5"/><div class="aa-help">Nutzen Sie konservativ 5%–15%.</div></div>
+<div class="aa-field"><label class="aa-label" for="aaFteSaved">Geschätzte FTE-Reduktion</label><select class="aa-select" id="aaFteSaved"><option value="0">0.0 FTE</option><option selected="" value="0.5">0.5 FTE</option><option value="1">1.0 FTE</option><option value="1.5">1.5 FTE</option><option value="2">2.0 FTE</option></select></div>
+<div class="aa-field aa-span-2"><label class="aa-label" for="aaFteCost">Jährliche Kosten pro FTE (€)</label><input class="aa-input" id="aaFteCost" min="0" step="100" type="number" value="20000"/><div class="aa-help">An lokale Gehaltsniveaus inkl. Employer Burden anpassen, falls relevant.</div></div>
+</div></div>
+<div class="aa-input-section"><div class="aa-input-section-title">3 / Atlantic AI Pricing Model</div><div class="aa-pricing-box">
+<div class="aa-pricing-title">Transparente Pricing-Annahmen</div>
+<div class="aa-pricing-row"><span>Infrastructure Layer</span><strong>€5 / Zimmer / Monat</strong></div>
+<div class="aa-pricing-row"><span>Direct Booking Revenue Share</span><strong>2% von shifted direct revenue</strong></div>
+<div class="aa-pricing-row"><span>AI-/Automation Performance Participation</span><strong>2% von messbarem AI-/Automation-Wert</strong></div>
+<div class="aa-pricing-row"><span>Effective Cost in diesem Scenario</span><strong id="aaEffectiveCostText">—</strong></div>
+</div></div>
+<div class="aa-actions"><button class="aa-btn aa-btn-primary" id="aaCalcBtn" type="button">Impact berechnen</button><button class="aa-btn aa-btn-secondary" id="aaResetBtn" type="button">Defaults zurücksetzen</button></div>
+<div class="aa-note">Der Calculator aktualisiert sich automatisch, wenn Inputs geändert werden. Atlantic AI Cost wird berechnet als €5 pro Zimmer und Monat, 2% von shifted direct revenue und eine modellierte 2% Participation auf messbaren AI-/Automation-Wert.</div>
+</div>
+<div class="aa-card aa-results">
+<div class="aa-impact aa-impact-shift"><div class="aa-impact-kicker">Direct Revenue in den eigenen Channel verlagert</div><div class="aa-impact-total" id="aaShiftedRevenue">€0</div><p class="aa-impact-sub" id="aaShiftedSub">Revenue wird aus OTA Channels in den Direct Channel verlagert, wodurch Commission Leakage reduziert und Ownership der Guest Relationship erhöht wird.</p></div>
+<div class="aa-impact"><div class="aa-impact-kicker">Geschätzter jährlicher Net Profit Impact</div><div class="aa-impact-total" id="aaTotalImpact">€0</div><p class="aa-impact-sub" id="aaImpactSub">Gross Commercial Benefit abzüglich Atlantic AI Infrastructure Fee, Direct Booking Revenue Share und modellierter Performance Participation.</p></div>
+<div class="aa-kpi-grid">
+<div class="aa-kpi aa-kpi-hero"><div class="aa-kpi-label">Gross Annual Benefit</div><div class="aa-kpi-value" id="aaGrossBenefit">€0</div></div>
+<div class="aa-kpi aa-kpi-hero"><div class="aa-kpi-label">Return-on-Sales Uplift</div><div class="aa-kpi-value" id="aaRosUplift">0.0%</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">Payback Period</div><div class="aa-kpi-value" id="aaPayback">0,0 Monate</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">Investment Multiple</div><div class="aa-kpi-value" id="aaRoiMultiple">0.0x</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">Effective Cost / Room Revenue</div><div class="aa-kpi-value" id="aaEffectiveCostRevenue">0.0%</div></div>
+<div class="aa-kpi"><div class="aa-kpi-label">Effective Cost / shifted direct revenue</div><div class="aa-kpi-value" id="aaEffectiveCostShifted">0.0%</div></div>
+</div>
+<div class="aa-result-section"><div class="aa-result-section-title">Direct Booking Impact</div><div class="aa-breakdown"><div class="aa-metric"><div><div class="aa-metric-name">OTA Commission Leakage reduziert</div><div class="aa-metric-desc" id="aaDirectDesc">Verbesserung durch Shift des Booking Share von OTA zu Direct.</div></div><div class="aa-metric-value" id="aaDirectValue">€0</div></div></div></div>
+<div class="aa-result-section"><div class="aa-result-section-title">AI-Agent- &amp; Automation-Impact</div><div class="aa-breakdown">
+<div class="aa-metric"><div><div class="aa-metric-name">Upsell Revenue Impact</div><div class="aa-metric-desc" id="aaUpsellDesc">Zusätzlicher Revenue durch automatisiertes Pre-arrival- und In-stay-Upselling.</div></div><div class="aa-metric-value" id="aaUpsellValue">€0</div></div>
+<div class="aa-metric"><div><div class="aa-metric-name">Operational Cost Savings</div><div class="aa-metric-desc" id="aaFteDesc">Workload-Reduktion durch automatisierte Confirmations, Reminders und Guest Communication.</div></div><div class="aa-metric-value" id="aaFteValue">€0</div></div>
+<div class="aa-metric"><div><div class="aa-metric-name">Total AI-/Automation-Wert vor Participation</div><div class="aa-metric-desc" id="aaAutomationDesc">Upsell Contribution plus geschätzte Workload-Reduktion vor modellierter Performance Participation.</div></div><div class="aa-metric-value" id="aaAutomationValue">€0</div></div>
+</div></div>
+<div class="aa-result-section"><div class="aa-result-section-title">Atlantic AI Cost</div><div class="aa-breakdown"><div class="aa-metric"><div><div class="aa-metric-name">Atlantic AI Total Cost</div><div class="aa-metric-desc" id="aaCostDesc">Infrastructure Fee plus 2% Revenue Share auf shifted direct revenue und 2% modellierte Participation auf messbaren AI-/Automation-Wert.</div></div><div class="aa-metric-value aa-negative" id="aaCostValue">€0</div></div></div></div>
+<div class="aa-demo-box"><h4 class="aa-demo-title">ROI Analysis herunterladen</h4><p class="aa-demo-copy">Erzeugen Sie ein gebrandetes Atlantic AI ROI PDF mit den aktuellen Inputs und Ergebnissen. Dies wird mit dem PDF Workflow verbunden, sobald der n8n Endpoint live ist.</p><button class="aa-btn aa-btn-secondary" data-matomo-action="CTA Click" data-matomo-category="ROI Calculator" data-matomo-name="ROI PDF herunterladen" id="aaDownloadPdfBtn" type="button">ROI PDF herunterladen</button></div>
+<div class="aa-demo-box"><h4 class="aa-demo-title">System live erleben</h4><p class="aa-demo-copy">Führen Sie eine Live-Reservation und Payment auf unserer Demo-Hotelwebsite durch und erleben Sie Website, IBE, PSP und automatisierten Communication Flow end-to-end.</p><a class="aa-btn aa-btn-primary" data-matomo-action="CTA Click" data-matomo-category="ROI Calculator" data-matomo-name="IBE Demo CTA" href="https://ibe-demo.travelerstreehotel.com/?ref=atlanticai&amp;entry=roi_calculator_demo" rel="noopener" target="_blank">DIRECT-BOOKING-EXPERIENCE TESTEN</a></div>
+<div class="aa-disclaimer">Illustration auf Basis von User Inputs, einer Standard-OTA-Commission-Annahme, Atlantic AI Infrastructure Fee, Direct Booking Revenue Share und modellierter Performance Participation auf messbaren AI-/Automation-Wert. Tatsächliche Ergebnisse hängen von Distribution Mix, Execution Quality, Guest Uptake, Configuration, Attribution Basis und lokaler Gehaltsstruktur ab.</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+(function(){
+  const pricing={infraPerRoomPerMonth:5,revenueSharePct:2,aiAutomationParticipationPct:2};
+  const defaults={rooms:70,adr:90,occ:65,currentDirect:5,futureDirect:40,otaCommission:15,upsellPct:7.5,fteSaved:0.5,fteCost:20000};
+  const $=(id)=>document.getElementById(id);
+  const num=(v)=>{const n=parseFloat(v);return isNaN(n)?0:n;};
+  const clamp=(v,min,max)=>Math.min(max,Math.max(min,v));
+  function euro(v){const sign=v<0?"−":"";return sign+new Intl.NumberFormat("en-GB",{style:"currency",currency:"EUR",maximumFractionDigits:0}).format(Math.abs(v));}
+  function one(v){return new Intl.NumberFormat("en-GB",{minimumFractionDigits:1,maximumFractionDigits:1}).format(v);}
+  function pct(v){return one(v)+"%";}
+  function sendMatomo(category,action,name,value){if(typeof window._paq==="undefined")return;if(typeof value==="number"&&!Number.isNaN(value)){window._paq.push(["trackEvent",category,action,name||"",Math.round(value)]);}else if(name){window._paq.push(["trackEvent",category,action,name]);}else{window._paq.push(["trackEvent",category,action]);}}
+  function fieldValue(id,fb){const el=$(id);return el?num(el.value):fb;}
+  function getScenario(){
+    const rooms=Math.max(1,fieldValue("aaRooms",defaults.rooms)), adr=Math.max(1,fieldValue("aaAdr",defaults.adr)), occPct=clamp(fieldValue("aaOcc",defaults.occ),1,100);
+    const currentDirectPct=clamp(fieldValue("aaCurrentDirect",defaults.currentDirect),0,100), futureDirectPct=clamp(fieldValue("aaFutureDirect",defaults.futureDirect),0,100), otaCommissionPct=clamp(fieldValue("aaOtaCommission",defaults.otaCommission),0,100), upsellPct=clamp(fieldValue("aaUpsellPct",defaults.upsellPct),0,100);
+    const fteSaved=Math.max(0,fieldValue("aaFteSaved",defaults.fteSaved)), fteCost=Math.max(0,fieldValue("aaFteCost",defaults.fteCost));
+    const occ=occPct/100,currentDirect=currentDirectPct/100,futureDirect=futureDirectPct/100,otaCommission=otaCommissionPct/100,upsell=upsellPct/100;
+    const annualRoomRevenue=rooms*365*occ*adr,currentOtaShare=Math.max(0,1-currentDirect),futureOtaShare=Math.max(0,1-futureDirect),directShareGain=Math.max(0,futureDirect-currentDirect);
+    const currentOtaRevenue=annualRoomRevenue*currentOtaShare,currentDirectRevenue=annualRoomRevenue*currentDirect,futureOtaRevenue=annualRoomRevenue*futureOtaShare,shiftedDirectRevenue=annualRoomRevenue*directShareGain;
+    const currentOtaCost=annualRoomRevenue*currentOtaShare*otaCommission,futureOtaCost=annualRoomRevenue*futureOtaShare*otaCommission,directImpact=Math.max(0,currentOtaCost-futureOtaCost);
+    const upsellImpact=annualRoomRevenue*upsell,fteImpact=fteSaved*fteCost,automationImpact=upsellImpact+fteImpact,grossBenefit=directImpact+automationImpact;
+    const annualInfraCost=rooms*pricing.infraPerRoomPerMonth*12,annualRevenueShareCost=shiftedDirectRevenue*(pricing.revenueSharePct/100),annualAiAutomationParticipationCost=automationImpact*(pricing.aiAutomationParticipationPct/100),annualAtlanticCost=annualInfraCost+annualRevenueShareCost+annualAiAutomationParticipationCost;
+    const netImpact=grossBenefit-annualAtlanticCost,investmentMultiple=annualAtlanticCost>0?grossBenefit/annualAtlanticCost:0,paybackMonths=grossBenefit>0?(annualAtlanticCost/grossBenefit)*12:0,rosUplift=annualRoomRevenue>0?(netImpact/annualRoomRevenue)*100:0,effectiveCostRevenue=annualRoomRevenue>0?(annualAtlanticCost/annualRoomRevenue)*100:0,effectiveCostShifted=shiftedDirectRevenue>0?(annualAtlanticCost/shiftedDirectRevenue)*100:0;
+    return {rooms,adr,occPct,currentDirectPct,futureDirectPct,otaCommissionPct,upsellPct,fteSaved,fteCost,annualRoomRevenue,currentOtaShare,futureOtaShare,directShareGain,currentOtaRevenue,currentDirectRevenue,futureOtaRevenue,shiftedDirectRevenue,directImpact,upsellImpact,fteImpact,automationImpact,grossBenefit,annualInfraCost,annualRevenueShareCost,annualAiAutomationParticipationCost,annualAtlanticCost,netImpact,investmentMultiple,paybackMonths,rosUplift,effectiveCostRevenue,effectiveCostShifted};
+  }
+  function setText(id,value){const el=$(id);if(el)el.textContent=value;}
+  function setSankeyText(id,value){const root=$("aa-roi-sankey-v1"); if(!root)return; const el=root.querySelector("#"+id); if(el)el.textContent=value;}
+  function setRoomsAdrOcc(s){const root=$("aa-roi-sankey-v1"); if(!root)return; const el=root.querySelector("#aaNodeRoomsAdrOcc"); if(!el)return; el.innerHTML=`<tspan x="36" dy="0">${Math.round(s.rooms)} rooms</tspan><tspan x="36" dy="13">${euro(s.adr)} ADR</tspan><tspan x="36" dy="13">${Math.round(s.occPct)}% occ</tspan>`;}
+  function strokeWidth(value,maxValue,minW,maxW){if(maxValue<=0)return minW; const scaled=minW+(Math.sqrt(value/maxValue)*(maxW-minW)); return Math.max(minW,Math.min(maxW,scaled));}
+  function updateFlows(s){const root=$("aa-roi-sankey-v1"); if(!root)return; const maxRevenue=Math.max(s.annualRoomRevenue,s.currentOtaRevenue,s.currentDirectRevenue,1),maxImpact=Math.max(s.grossBenefit,s.upsellImpact,s.directImpact,s.annualAtlanticCost,s.fteImpact,1); [["aaFlowTotalToOta",s.shiftedDirectRevenue,maxRevenue,8,44],["aaFlowOtaRemain",s.futureOtaRevenue,maxRevenue,8,44],["aaFlowTotalToDirect",s.currentDirectRevenue,maxRevenue,8,42],["aaFlowOtaToShift",s.directImpact,maxImpact,6,28],["aaFlowShiftCommission",s.directImpact,maxImpact,6,28],["aaFlowShiftUpsell",s.upsellImpact,maxImpact,6,32],["aaFlowShiftCost",s.annualAtlanticCost,maxImpact,6,20],["aaFlowFte",s.fteImpact,maxImpact,5,18],["aaFlowCommissionToGop",s.directImpact,maxImpact,6,27],["aaFlowUpsellToGop",s.upsellImpact,maxImpact,6,31],["aaFlowFteToGop",s.fteImpact,maxImpact,5,18],["aaFlowCostToOutcome",s.annualAtlanticCost,maxImpact,6,20],["aaFlowGopToNet",s.grossBenefit,maxImpact,10,44],["aaFlowCostDeduct",s.annualAtlanticCost,maxImpact,6,22]].forEach(([id,value,max,minW,maxW])=>{const el=root.querySelector("#"+id); if(el)el.setAttribute("stroke-width",strokeWidth(value,max,minW,maxW));});}
+  let engagedTracked=false,highValueTracked=false,scenarioTimer=null;
+  function calc(trackScenario){
+    const s=getScenario();
+    setText("aaShiftedRevenue",euro(s.shiftedDirectRevenue)); setText("aaShiftedSub",`${euro(s.shiftedDirectRevenue)} von OTA zu Direct verlagert durch einen ${Math.round(s.directShareGain*100)}% Direct-Share Increase.`);
+    setText("aaTotalImpact",euro(s.netImpact)); setText("aaImpactSub",`Gross Commercial Benefit von ${euro(s.grossBenefit)} abzüglich Atlantic AI Cost von ${euro(s.annualAtlanticCost)}, inklusive modellierter Performance Participation.`);
+    setText("aaGrossBenefit",euro(s.grossBenefit)); setText("aaRoiMultiple",`${one(s.investmentMultiple)}x`); setText("aaPayback",`${one(s.paybackMonths)} months`); setText("aaRosUplift",`${one(s.rosUplift)}%`); setText("aaEffectiveCostRevenue",`${one(s.effectiveCostRevenue)}%`); setText("aaEffectiveCostShifted",`${one(s.effectiveCostShifted)}%`);
+    setText("aaDirectValue",euro(s.directImpact)); setText("aaUpsellValue",euro(s.upsellImpact)); setText("aaFteValue",euro(s.fteImpact)); setText("aaAutomationValue",euro(s.automationImpact)); setText("aaCostValue","− "+euro(s.annualAtlanticCost));
+    setText("aaEffectiveCostText",`~${one(s.effectiveCostRevenue)}% von Annual Room Revenue / ~${one(s.effectiveCostShifted)}% von shifted direct revenue`);
+    setText("aaDirectDesc",`Gäste können das Hotel auf OTA-Plattformen entdecken, aber direct konvertieren. Shift von ${Math.round(s.currentOtaShare*100)}% auf ${Math.round(s.futureOtaShare*100)}% OTA Share bei durchschnittlicher Commission von ${one(s.otaCommissionPct)}%.`);
+    setText("aaUpsellDesc",`Geschätzt mit ${one(s.upsellPct)}% von Annual Room Revenue durch automatisiertes Upselling und conversion-orientierte Guest Communication.`);
+    setText("aaFteDesc",`${one(s.fteSaved)} FTE × ${euro(s.fteCost)} jährliche Kosten pro FTE durch reduzierten manuellen Communication Workload.`);
+    setText("aaAutomationDesc",`Upsell Impact von ${euro(s.upsellImpact)} plus Operational Savings von ${euro(s.fteImpact)} vor modellierter Performance Participation von ${euro(s.annualAiAutomationParticipationCost)}.`);
+    setText("aaCostDesc",`Infrastructure Fee von ${euro(s.annualInfraCost)}, Direct Booking Revenue Share von ${euro(s.annualRevenueShareCost)} auf ${euro(s.shiftedDirectRevenue)} shifted direct revenue plus modellierte AI-/Automation-Participation von ${euro(s.annualAiAutomationParticipationCost)} auf ${euro(s.automationImpact)} messbaren AI-/Automation-Wert.`);
+    setSankeyText("aaSankeyScenarioPill",`${Math.round(s.rooms)} Zimmer · ${euro(s.adr)} ADR · ${pct(s.occPct)} Occupancy`);
+    setSankeyText("aaSkNetImpact",euro(s.netImpact)); setSankeyText("aaSkRosNote",`${pct(s.rosUplift)} Return-on-Sales Uplift`); setSankeyText("aaSkShiftedRevenue",euro(s.shiftedDirectRevenue)); setSankeyText("aaSkShiftNote",`${Math.round(s.directShareGain*100)}% Direct-Share Gain`); setSankeyText("aaSkCommissionSaved",euro(s.directImpact)); setSankeyText("aaSkCommissionNote",`${pct(s.otaCommissionPct)} OTA Commission reduziert`); setSankeyText("aaSkAutomationImpact",euro(s.automationImpact)); setSankeyText("aaSkAutomationNote",`${euro(s.upsellImpact)} upsell + ${euro(s.fteImpact)} Saving vor Participation`); setSankeyText("aaSkMultiple",`${one(s.investmentMultiple)}x`); setSankeyText("aaSkPayback",`${one(s.paybackMonths)} Monate Payback`);
+    setSankeyText("aaNodeTotalRevenue",euro(s.annualRoomRevenue)); setRoomsAdrOcc(s); setSankeyText("aaNodeOtaRevenue",euro(s.currentOtaRevenue)); setSankeyText("aaNodeDirectRevenue",euro(s.currentDirectRevenue)); setSankeyText("aaNodeShifted",euro(s.shiftedDirectRevenue)); setSankeyText("aaNodeShiftPct",`${Math.round(s.directShareGain*100)}% shifted`); setSankeyText("aaNodeRemainingOta",euro(s.futureOtaRevenue)); setSankeyText("aaNodeRemainingOtaPct",`${Math.round(s.futureOtaShare*100)}% OTA`); setSankeyText("aaNodeExistingDirect",euro(s.currentDirectRevenue)); setSankeyText("aaNodeExistingDirectPct",`${Math.round(s.currentDirectPct)}% direct`); setSankeyText("aaNodeCommissionSaved",euro(s.directImpact)); setSankeyText("aaNodeCommissionRate",`${pct(s.otaCommissionPct)} OTA`); setSankeyText("aaNodeUpsell",euro(s.upsellImpact)); setSankeyText("aaNodeUpsellPct",`${pct(s.upsellPct)} revenue`); setSankeyText("aaNodeAiCost","−"+euro(s.annualAtlanticCost)); setSankeyText("aaNodeFteSaving",euro(s.fteImpact)); setSankeyText("aaNodeFteText",`${one(s.fteSaved)} FTE`); setSankeyText("aaNodeDistImpact",euro(s.directImpact)); setSankeyText("aaNodeRoomsIncrease",euro(s.upsellImpact)); setSankeyText("aaNodeCostDeducted","−"+euro(s.annualAtlanticCost)); setSankeyText("aaNodeCostBasis",`inkl. ${euro(s.annualAiAutomationParticipationCost)} Value Share`); setSankeyText("aaNodeOpsSaving",euro(s.fteImpact)); setSankeyText("aaNodeGrossBenefit",euro(s.grossBenefit)); setSankeyText("aaNodeInvestment","−"+euro(s.annualAtlanticCost)); setSankeyText("aaNodeEffectiveCost",`${pct(s.effectiveCostRevenue)} revenue`); setSankeyText("aaNodeNetProfit",euro(s.netImpact)); setSankeyText("aaNodeOutcomeKpis",`${pct(s.rosUplift)} RoS`); setSankeyText("aaNodeOutcomeMultiple",`${one(s.investmentMultiple)}x ROI`);
+    updateFlows(s);
+    if(trackScenario){ if(!engagedTracked){engagedTracked=true;sendMatomo("ROI Calculator","Engaged","User changed Calculator Inputs");} clearTimeout(scenarioTimer); scenarioTimer=setTimeout(()=>{sendMatomo("ROI Calculator","Scenario Updated","Net Impact Scenario",s.netImpact);sendMatomo("ROI Calculator","Direct Revenue Shifted","Shifted Direct Revenue",s.shiftedDirectRevenue); if(s.netImpact>=100000&&!highValueTracked){highValueTracked=true;sendMatomo("ROI Calculator","High Value Scenario","Net impact above 100k",s.netImpact);}},900);}
+  }
+  function resetDefaults(){Object.keys(defaults).forEach(k=>{const map={rooms:"aaRooms",adr:"aaAdr",occ:"aaOcc",currentDirect:"aaCurrentDirect",futureDirect:"aaFutureDirect",otaCommission:"aaOtaCommission",upsellPct:"aaUpsellPct",fteSaved:"aaFteSaved",fteCost:"aaFteCost"}; const el=$(map[k]); if(el)el.value=defaults[k];}); calc(true); sendMatomo("ROI Calculator","Reset","Defaults zurücksetzen");}
+  function downloadPdfPlaceholder(){const s=getScenario(); sendMatomo("ROI Calculator","PDF Requested","ROI PDF herunterladen",s.netImpact); alert("PDF-Generierung wird mit dem Atlantic-AI-n8n-Workflow verbunden. Aktueller jährlicher Net Impact: "+euro(s.netImpact)+".");}
+  function init(){
+    ["aaRooms","aaAdr","aaOcc","aaOtaCommission","aaCurrentDirect","aaFutureDirect","aaUpsellPct","aaFteSaved","aaFteCost"].forEach(id=>{const el=$(id); if(!el)return; el.addEventListener("change",()=>calc(true)); el.addEventListener("input",()=>{if(el.tagName==="SELECT")return; calc(true);});});
+    const calcBtn=$("aaCalcBtn"), resetBtn=$("aaResetBtn"), pdfBtn=$("aaDownloadPdfBtn"); if(calcBtn)calcBtn.addEventListener("click",()=>{calc(true);sendMatomo("ROI Calculator","Manual Calculate","Calculate Impact clicked");}); if(resetBtn)resetBtn.addEventListener("click",resetDefaults); if(pdfBtn)pdfBtn.addEventListener("click",downloadPdfPlaceholder);
+    calc(false);
+  }
+  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}
+})();
+</script>
+</div>
+</section>
+</main>
+<footer class="aa-site-footer">
+<div class="aa-footer-inner">
+<div><strong>Atlantic AI</strong><div class="aa-footer-small">Integrierte Direct-Booking-, Payment-, Tracking- und Commercial-Data-Infrastruktur für Hotels auf Apaleo-Basis.</div></div>
+<div class="aa-footer-links">
+      <a href="/de/legal.html">Impressum</a>
+      <a href="/de/privacy.html">Datenschutzerklärung</a>
+      <a href="/de/data-processing.html">Datenverarbeitung</a>
+      <a href="/de/terms.html">AGB</a>
+      <a href="/de/contact.html">Kontakt</a>
+    </div>
+</div>
+</footer>
+
+<div id="aa-legal-footer">
+  <a href="/legal/">Legal Notice</a>
+  <a href="/privacy_policy/">Privacy Policy</a>
+  <a href="/data_processing/">Data Processing</a>
+  <a href="/terms/">Terms</a>
+  <a href="/contact/">Contact</a>
+</div>
+
+</body>
+</html>

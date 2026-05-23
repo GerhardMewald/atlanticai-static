@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start — Atlantic AI</title>
+  <meta name="description" content="Atlantic AI replaces fragmented hotel stacks with integrated direct booking, payment, tracking and commercial data infrastructure built on Apaleo.">
+  <link rel="canonical" href="https://atlanticai.eu/en/">
+  <link rel="alternate" hreflang="en" href="https://atlanticai.eu/en/">
+  <link rel="alternate" hreflang="de" href="https://atlanticai.eu/de/">
+  <link rel="alternate" hreflang="fr" href="https://atlanticai.eu/fr/">
+  <link rel="alternate" hreflang="es" href="https://atlanticai.eu/es/">
+  <link rel="alternate" hreflang="pt" href="https://atlanticai.eu/pt/">
+  <link rel="alternate" hreflang="it" href="https://atlanticai.eu/it/">
+  <link rel="alternate" hreflang="nl" href="https://atlanticai.eu/nl/">
+  <link rel="alternate" hreflang="no" href="https://atlanticai.eu/no/">
+  <link rel="alternate" hreflang="sv" href="https://atlanticai.eu/sv/">
+  <link rel="alternate" hreflang="da" href="https://atlanticai.eu/da/">
+  <link rel="stylesheet" href="/assets/css/atlanticai.css">
+  <script src="/assets/js/matomo.js" defer></script>
+  <script src="/assets/js/atlanticai.js" defer></script>
+</head>
+<body>
+<header class="aa-site-header">
+  <nav class="aa-nav" aria-label="Main navigation">
+    <a class="aa-logo" href="/en/">Atlantic AI</a>
+    <button class="aa-mobile-toggle" type="button" data-aa-menu-toggle aria-expanded="false">Menu</button>
+    <div class="aa-menu" data-aa-menu hidden>
+      <a href="/en/">Home</a>
+      <a href="/en/use-cases.html">Use Cases</a>
+      <a href="https://ibe-demo.travelerstreehotel.com/" target="_blank" rel="noopener">Demo</a>
+      <a href="/en/pricing.html">Pricing</a>
+      <a href="/en/roi-calculator.html">ROI Calculator</a>
+<a href="https://clients.atlanticai.eu/" target="_blank" rel="noopener">Client Portal</a>
+      <a class="aa-start-cta" href="/start/">Start improving<br>your bottom line</a>
+    </div>
+    <div class="aa-lang-wrap" data-aa-lang-wrap>
+      <button class="aa-lang-btn" type="button" data-aa-lang-btn aria-expanded="false">
+        <span data-short="EN">English</span>
+        <span class="aa-lang-arrow" aria-hidden="true">⌄</span>
+      </button>
+      <div class="aa-lang-menu" data-aa-lang-menu hidden>
+        <a href="/en/">English</a>
+        <a href="/am/">አማርኛ</a>
+        <a href="/ar/">العربية</a>
+        <a href="/da/">Dansk</a>
+        <a href="/de/">Deutsch</a>
+        <a href="/es/">Español</a>
+        <a href="/fr/">Français</a>
+        <a href="/hi/">हिन्दी</a>
+        <a href="/id/">Bahasa Indonesia</a>
+        <a href="/it/">Italiano</a>
+        <a href="/nl/">Nederlands</a>
+        <a href="/no/">Norsk</a>
+        <a href="/pt/">Português</a>
+        <a href="/ru/">Русский</a>
+        <a href="/sv/">Svenska</a>
+        <a href="/sw/">Kiswahili</a>
+        <a href="/th/">ไทย</a>
+        <a href="/vi/">Tiếng Việt</a>
+        <a href="/zh/">简体中文</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<main class="aa-page" style="padding:120px 24px 96px;">
+<style>
+  .aa-start-wrap{max-width:980px;margin:0 auto;font-family:Raleway,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1A1A1A}
+  .aa-start-wrap *{box-sizing:border-box}
+  .aa-start-card{background:#fff;border:1px solid #E6E3DB;border-radius:14px;box-shadow:0 18px 42px rgba(0,0,0,.08);padding:32px}
+  .aa-eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7A7A7A;margin-bottom:12px}
+  .aa-title{font-size:38px;line-height:1.12;font-weight:300;letter-spacing:-.5px;margin:0 0 12px;color:#1f2638}
+  .aa-subtitle{font-size:16px;line-height:1.65;font-weight:300;color:#6A6A6A;max-width:780px;margin:0 0 26px}
+  .aa-section-title{margin:22px 0 10px;font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#7A7A7A}
+  .aa-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .aa-field{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+  .aa-label{font-size:12px;font-weight:600;color:#1A1A1A}
+  .aa-required{color:#B42318;margin-left:3px}
+  .aa-input{height:46px;border:1px solid #E6E3DB;border-radius:8px;background:#fff;color:#1A1A1A;font:inherit;font-size:14px;padding:12px 14px;outline:none;width:100%}
+  .aa-input:focus{border-color:#CFCBC1;box-shadow:0 0 0 3px rgba(26,26,26,.05)}
+  .aa-help{font-size:12px;line-height:1.5;color:#777}
+  .aa-error{display:none;font-size:11px;color:#B42318}
+  .aa-field.has-error .aa-input{border-color:#B42318;background:#FFF9F8}
+  .aa-field.has-error .aa-error{display:block}
+  .aa-hidden{display:none!important}
+  .aa-url-wrap{display:flex;width:100%}
+  .aa-url-prefix{height:46px;display:flex;align-items:center;padding:0 12px;border:1px solid #E6E3DB;border-right:0;border-radius:8px 0 0 8px;background:#F8F8F6;color:#6A6A6A;font-size:14px;white-space:nowrap}
+  .aa-url-input{border-radius:0 8px 8px 0!important}
+
+  .aa-choice-group{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+  .aa-choice{position:relative}
+  .aa-choice input{position:absolute;opacity:0;pointer-events:none}
+  .aa-choice-card{display:flex;align-items:center;justify-content:center;min-height:50px;border:1px solid #E6E3DB;border-radius:10px;background:#fff;font-size:14px;font-weight:500;cursor:pointer;transition:.18s}
+  .aa-choice input:checked + .aa-choice-card{border-color:#1A1A1A;background:#F8F8F6;box-shadow:0 0 0 3px rgba(26,26,26,.05)}
+  .aa-field.has-error .aa-choice-card{border-color:#B42318;background:#FFF9F8}
+
+  .aa-check-row{display:flex;gap:10px;align-items:flex-start;margin:4px 0}
+  .aa-check-row input{width:18px;height:18px;margin-top:2px;flex:0 0 18px}
+  .aa-check-row span{font-size:12px;line-height:1.55;color:#666}
+
+  .aa-status{display:none;border-radius:10px;padding:13px 15px;margin-bottom:16px;font-size:13px;line-height:1.5}
+  .aa-status.is-error{display:block;background:#FFF6F5;border:1px solid #F2D1CC;color:#B42318}
+  .aa-status.is-success{display:block;background:#F2FBF5;border:1px solid #CFEAD8;color:#1F7A46}
+
+  .aa-box{border:1px solid #E6E3DB;border-radius:10px;background:#FAFAF8;padding:16px;margin:4px 0 18px}
+  .aa-box strong{display:block;margin-bottom:6px;color:#1f2638}
+  .aa-summary{border:1px solid #D8D4CA;border-radius:12px;background:#FBFAF7;padding:18px;margin:20px 0}
+  .aa-summary-title{font-size:15px;font-weight:700;margin-bottom:12px;color:#1f2638}
+  .aa-summary-row{display:flex;justify-content:space-between;gap:16px;border-top:1px solid #E6E3DB;padding:10px 0;font-size:13px;color:#444}
+  .aa-summary-row:first-of-type{border-top:0}
+  .aa-summary-row strong{font-weight:700;color:#1f2638}
+  .aa-summary-note{font-size:12px;line-height:1.6;color:#777;margin-top:10px}
+  .aa-summary-emphasis{margin-top:12px;padding:12px 14px;border-radius:10px;background:#fff;border:1px solid #E6E3DB;font-size:12px;line-height:1.6;color:#444}
+  .aa-summary-emphasis strong{color:#1f2638}
+
+  .aa-btn{border:1px solid #1A1A1A;background:#1A1A1A;color:#fff;border-radius:999px;padding:13px 24px;font:inherit;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+  .aa-btn:disabled{opacity:.6;cursor:not-allowed}
+  .aa-note{font-size:12px;line-height:1.55;color:#777;margin-top:12px;max-width:760px}
+  .aa-link{color:#1f2638;text-decoration:underline;text-underline-offset:2px}
+
+  @media(max-width:767px){
+    .aa-start-card{padding:24px}
+    .aa-title{font-size:30px}
+    .aa-grid-2,.aa-choice-group{grid-template-columns:1fr}
+    .aa-btn{width:100%}
+    .aa-summary-row{flex-direction:column;gap:4px}
+  }
+</style>
+
+<div class="aa-start-wrap">
+  <div class="aa-start-card">
+    <div class="aa-eyebrow">Atlantic AI setup</div>
+    <h1 class="aa-title">Start your direct-booking setup.</h1>
+    <p class="aa-subtitle">
+      Atlantic AI IBE currently works with Apaleo. Start with a short eligibility and billing setup, then we guide you through Apaleo onboarding.
+    </p>
+
+    <div id="aa-start-status" class="aa-status" aria-live="polite"></div>
+
+    <form id="aa-start-form" novalidate>
+      <div class="aa-section-title">Contact</div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="first_name">
+          <label class="aa-label">First name<span class="aa-required">*</span></label>
+          <input class="aa-input" name="first_name" type="text" placeholder="First name">
+          <div class="aa-error">Please enter your first name.</div>
+        </div>
+
+        <div class="aa-field" data-field="last_name">
+          <label class="aa-label">Last name<span class="aa-required">*</span></label>
+          <input class="aa-input" name="last_name" type="text" placeholder="Last name">
+          <div class="aa-error">Please enter your last name.</div>
+        </div>
+      </div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="work_email">
+          <label class="aa-label">Work email<span class="aa-required">*</span></label>
+          <input class="aa-input" name="work_email" type="email" placeholder="you@hotel.com">
+          <div class="aa-error">Please enter a valid work email.</div>
+        </div>
+
+        <div class="aa-field" data-field="work_email_confirm">
+          <label class="aa-label">Confirm work email<span class="aa-required">*</span></label>
+          <input class="aa-input" name="work_email_confirm" type="email" placeholder="Repeat work email" autocomplete="off">
+          <div class="aa-error">Please enter the same valid email address again.</div>
+        </div>
+      </div>
+
+      <div class="aa-section-title">Hotel setup</div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="hotel_name">
+          <label class="aa-label">Hotel / trading name<span class="aa-required">*</span></label>
+          <input class="aa-input" name="hotel_name" type="text" placeholder="Hotel name">
+          <div class="aa-error">Please enter your hotel or trading name.</div>
+        </div>
+
+        <div class="aa-field" data-field="country_code">
+          <label class="aa-label">Hotel country<span class="aa-required">*</span></label>
+          <select class="aa-input" name="country_code" id="aa-country">
+            <option value="">Select country</option>
+          </select>
+          <div class="aa-error">Please select the hotel country.</div>
+        </div>
+      </div>
+
+      <div class="aa-field" data-field="website_domain">
+        <label class="aa-label">Website domain<span class="aa-required">*</span></label>
+        <div class="aa-url-wrap">
+          <div class="aa-url-prefix">https://</div>
+          <input class="aa-input aa-url-input" name="website_domain" type="text" placeholder="yourhotel.com">
+        </div>
+        <div class="aa-help">Enter the domain only.</div>
+        <div class="aa-error">Please enter a valid domain.</div>
+      </div>
+
+      <div class="aa-section-title">Billing / legal entity</div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="legal_name">
+          <label class="aa-label">Legal company name<span class="aa-required">*</span></label>
+          <input class="aa-input" name="legal_name" type="text" placeholder="Registered legal entity">
+          <div class="aa-error">Please enter the registered legal company name.</div>
+        </div>
+
+        <div class="aa-field" data-field="commercial_register_no">
+          <label class="aa-label">Company registration number</label>
+          <input class="aa-input" name="commercial_register_no" type="text" placeholder="Commercial / company register number">
+          <div class="aa-help">If applicable in your jurisdiction.</div>
+        </div>
+      </div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="vat_number">
+          <label class="aa-label">VAT / tax number</label>
+          <input class="aa-input" name="vat_number" type="text" placeholder="e.g. CHE..., DE..., FR...">
+          <div class="aa-help">Required where applicable for tax treatment / reverse charge.</div>
+          <div class="aa-error">Please enter a valid VAT / tax number where required.</div>
+        </div>
+
+        <div class="aa-field" data-field="billing_email">
+          <label class="aa-label">Billing email<span class="aa-required">*</span></label>
+          <input class="aa-input" name="billing_email" type="email" placeholder="billing@hotel.com">
+          <div class="aa-error">Please enter a valid billing email.</div>
+        </div>
+      </div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="billing_address_line1">
+          <label class="aa-label">Billing address<span class="aa-required">*</span></label>
+          <input class="aa-input" name="billing_address_line1" type="text" placeholder="Street / address line">
+          <div class="aa-error">Please enter the billing address.</div>
+        </div>
+
+        <div class="aa-field" data-field="billing_address_line2">
+          <label class="aa-label">Address line 2</label>
+          <input class="aa-input" name="billing_address_line2" type="text" placeholder="Suite, building, optional">
+        </div>
+      </div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="billing_postcode">
+          <label class="aa-label">Postcode / ZIP<span class="aa-required">*</span></label>
+          <input class="aa-input" name="billing_postcode" type="text" placeholder="Postcode">
+          <div class="aa-error">Please enter the postcode.</div>
+        </div>
+
+        <div class="aa-field" data-field="billing_city">
+          <label class="aa-label">City<span class="aa-required">*</span></label>
+          <input class="aa-input" name="billing_city" type="text" placeholder="City">
+          <div class="aa-error">Please enter the city.</div>
+        </div>
+      </div>
+
+      <div class="aa-grid-2">
+        <div class="aa-field" data-field="billing_state_region">
+          <label class="aa-label">State / region</label>
+          <input class="aa-input" name="billing_state_region" type="text" placeholder="State / region, if applicable">
+        </div>
+
+        <div class="aa-field" data-field="billing_country_code">
+          <label class="aa-label">Billing country<span class="aa-required">*</span></label>
+          <select class="aa-input" name="billing_country_code" id="aa-billing-country">
+            <option value="">Select country</option>
+          </select>
+          <div class="aa-error">Please select the billing country.</div>
+        </div>
+      </div>
+
+      <div class="aa-box">
+        <strong>VAT treatment is derived automatically from your billing country.</strong>
+        <div class="aa-help">
+          Swiss customers are treated as Swiss VAT customers. International business customers are treated under reverse charge / no Swiss VAT, subject to validation of company and tax details during invoicing.
+        </div>
+      </div>
+
+      <div class="aa-field" data-field="property_setup">
+        <label class="aa-label">Property setup<span class="aa-required">*</span></label>
+        <div class="aa-choice-group">
+          <label class="aa-choice">
+            <input type="radio" name="property_setup" value="single_property">
+            <span class="aa-choice-card">Single property</span>
+          </label>
+          <label class="aa-choice">
+            <input type="radio" name="property_setup" value="multi_property">
+            <span class="aa-choice-card">Multi-property / group</span>
+          </label>
+        </div>
+        <div class="aa-error">Please select the property setup.</div>
+      </div>
+
+      <div id="aa-single-property-fields" class="aa-hidden">
+        <div class="aa-field" data-field="single_rooms">
+          <label class="aa-label">Number of rooms<span class="aa-required">*</span></label>
+          <input class="aa-input" name="single_rooms" type="number" min="1" step="1" placeholder="e.g. 60">
+          <div class="aa-help">Initial billing estimate. Final billable room count will be verified from Apaleo inventory.</div>
+          <div class="aa-error">Please enter the number of rooms.</div>
+        </div>
+      </div>
+
+      <div id="aa-multi-property-fields" class="aa-hidden">
+        <div class="aa-grid-2">
+          <div class="aa-field" data-field="properties_count">
+            <label class="aa-label">Number of properties<span class="aa-required">*</span></label>
+            <input class="aa-input" name="properties_count" type="number" min="2" step="1" placeholder="e.g. 4">
+            <div class="aa-error">Please enter the number of properties.</div>
+          </div>
+
+          <div class="aa-field" data-field="total_rooms">
+            <label class="aa-label">Total number of rooms<span class="aa-required">*</span></label>
+            <input class="aa-input" name="total_rooms" type="number" min="1" step="1" placeholder="e.g. 240">
+            <div class="aa-help">Initial billing estimate across all properties.</div>
+            <div class="aa-error">Please enter the total number of rooms.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="aa-box">
+        <strong>Apaleo is required for the standard Atlantic AI IBE setup.</strong>
+        <div class="aa-help">
+          During onboarding you will create an Apaleo Connected App with the required scopes. We then read your hotel setup, validate inventory, configure IBE services, and prepare your booking flow.
+        </div>
+      </div>
+
+      <div class="aa-field" data-field="apaleo_confirmed">
+        <label class="aa-check-row">
+          <input name="apaleo_confirmed" type="checkbox">
+          <span>We use Apaleo PMS and can create a Connected App for Atlantic AI onboarding.<span class="aa-required">*</span></span>
+        </label>
+        <div class="aa-error">Atlantic AI IBE currently requires Apaleo.</div>
+      </div>
+
+      <div class="aa-summary" id="aa-subscription-summary">
+        <div class="aa-summary-title">Subscription summary</div>
+
+        <div class="aa-summary-row">
+          <span>Product</span>
+          <strong>Atlantic AI IBE Infrastructure</strong>
+        </div>
+
+        <div class="aa-summary-row">
+          <span>Infrastructure subscription</span>
+          <strong>€5 / room / month</strong>
+        </div>
+
+        <div class="aa-summary-row">
+          <span>Declared room count</span>
+          <strong id="aa-summary-rooms">—</strong>
+        </div>
+
+        <div class="aa-summary-row">
+          <span>Amount charged today</span>
+          <strong id="aa-summary-fee">—</strong>
+        </div>
+
+        <div class="aa-summary-row">
+          <span>VAT treatment</span>
+          <strong id="aa-summary-vat">—</strong>
+        </div>
+
+        <div class="aa-summary-row">
+          <span>Performance participation</span>
+          <strong>2% of direct-booking turnover</strong>
+        </div>
+
+        <div class="aa-summary-note">
+          You are subscribing to Atlantic AI IBE Infrastructure at €5 per room per month plus 2% of direct-booking turnover processed through the Atlantic AI direct-booking channel.
+        </div>
+
+        <div class="aa-summary-emphasis">
+          <strong>Today (initial charge):</strong>
+          You are charged a <strong>pro-rated portion of the monthly infrastructure fee</strong> based on the time remaining in the current billing period.
+          The exact amount is calculated by Stripe at checkout.
+
+          <br><br>
+
+          <strong>Recurring billing:</strong>
+          Starting from the next billing cycle, your payment method will be charged automatically on a monthly basis.
+
+          <br><br>
+
+          <strong>Monthly invoice structure:</strong>
+          Each monthly invoice includes:
+          <br>• the upcoming month’s infrastructure subscription (€5 per room), and
+          <br>• the <strong>retrospectively calculated 2% participation</strong> on direct-booking turnover generated in the previous month.
+
+          <br><br>
+
+          <strong>Room count basis:</strong>
+          The billable room count is validated against your Apaleo inventory and may be adjusted accordingly.
+
+          <br><br>
+
+          <strong>VAT treatment:</strong>
+          Determined based on your billing country and company details and applied on the official invoice.
+        </div>
+      </div>
+
+      <div class="aa-field" data-field="billing_confirmed">
+        <label class="aa-check-row">
+          <input name="billing_confirmed" type="checkbox">
+          <span>I confirm the subscription summary above and understand the initial and ongoing billing logic.<span class="aa-required">*</span></span>
+        </label>
+        <div class="aa-error">Please confirm the subscription summary.</div>
+      </div>
+
+      <div class="aa-field" data-field="terms_confirmed">
+        <label class="aa-check-row">
+          <input name="terms_confirmed" type="checkbox">
+          <span>I accept the Atlantic AI <a class="aa-link" href="/terms/" target="_blank" rel="noopener">Terms & Conditions</a>.<span class="aa-required">*</span></span>
+        </label>
+        <div class="aa-error">Please accept the Terms & Conditions.</div>
+      </div>
+
+      <div class="aa-field" data-field="consent">
+        <label class="aa-check-row">
+          <input name="consent" type="checkbox">
+          <span>I agree that Atlantic AI, a division of Bice AG, may use this information to start the subscription and onboarding process.<span class="aa-required">*</span></span>
+        </label>
+        <div class="aa-error">Please confirm consent.</div>
+      </div>
+
+      <div id="aa-ready-hint" class="aa-status is-error" style="display:none;margin-top:14px;margin-bottom:14px;" aria-live="polite"></div>
+
+      <button id="aa-start-submit" class="aa-btn" type="submit">Continue to secure billing setup</button>
+
+      <div class="aa-note">
+        By proceeding, you will be redirected to Stripe to:
+        <br>• pay the initial pro-rated infrastructure fee for the current billing period, and
+        <br>• set up your payment method for ongoing automatic monthly billing.
+
+        <br><br>
+
+        Your payment method will be charged automatically for future invoices unless cancelled in accordance with the Terms & Conditions.
+      </div>
+
+      <div class="aa-note" style="margin-top:14px;">
+        <strong>Contracting entity:</strong><br>
+        Atlantic AI is a Software-as-a-Service (SaaS) product and trading name of <strong>Bice AG, Switzerland</strong>.
+        Your contractual relationship, billing, and invoicing are established with Bice AG.
+
+        <br><br>
+
+        All services, payments, and invoices are provided and issued by Bice AG in accordance with the applicable Terms & Conditions.
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+(function(){
+  const WEBHOOK_URL = "https://n8n.atlanticai.eu/webhook/atlanticai-start-setup";
+  const PRICE_PER_ROOM_EUR = 5;
+
+  const ISO_COUNTRY_CODES = [
+    "AF","AX","AL","DZ","AS","AD","AO","AI","AQ","AG","AR","AM","AW","AU","AT","AZ",
+    "BS","BH","BD","BB","BY","BE","BZ","BJ","BM","BT","BO","BQ","BA","BW","BV","BR","IO","BN","BG","BF","BI",
+    "CV","KH","CM","CA","KY","CF","TD","CL","CN","CX","CC","CO","KM","CG","CD","CK","CR","CI","HR","CU","CW","CY","CZ",
+    "DK","DJ","DM","DO","EC","EG","SV","GQ","ER","EE","SZ","ET","FK","FO","FJ","FI","FR","GF","PF","TF","GA","GM","GE","DE","GH","GI","GR","GL","GD","GP","GU","GT","GG","GN","GW","GY",
+    "HT","HM","VA","HN","HK","HU","IS","IN","ID","IR","IQ","IE","IM","IL","IT","JM","JP","JE","JO","KZ","KE","KI","KP","KR","KW","KG",
+    "LA","LV","LB","LS","LR","LY","LI","LT","LU","MO","MG","MW","MY","MV","ML","MT","MH","MQ","MR","MU","YT","MX","FM","MD","MC","MN","ME","MS","MA","MZ","MM",
+    "NA","NR","NP","NL","NC","NZ","NI","NE","NG","NU","NF","MK","MP","NO","OM",
+    "PK","PW","PS","PA","PG","PY","PE","PH","PN","PL","PT","PR","QA","RE","RO","RU","RW",
+    "BL","SH","KN","LC","MF","PM","VC","WS","SM","ST","SA","SN","RS","SC","SL","SG","SX","SK","SI","SB","SO","ZA","GS","SS","ES","LK","SD","SR","SJ","SE","CH","SY",
+    "TW","TJ","TZ","TH","TL","TG","TK","TO","TT","TN","TR","TM","TC","TV","UG","UA","AE","GB","US","UM","UY","UZ","VU","VE","VN","VG","VI","WF","EH","YE","ZM","ZW"
+  ];
+
+  const COUNTRY_NAME_OVERRIDES = {
+    "CV": "Cape Verde",
+    "GB": "United Kingdom",
+    "US": "United States",
+    "AE": "United Arab Emirates",
+    "KR": "South Korea",
+    "KP": "North Korea",
+    "CD": "Congo, Democratic Republic of the",
+    "CG": "Congo",
+    "TZ": "Tanzania",
+    "BO": "Bolivia",
+    "VE": "Venezuela",
+    "IR": "Iran",
+    "SY": "Syria",
+    "LA": "Laos",
+    "MD": "Moldova",
+    "VN": "Vietnam",
+    "PS": "Palestine"
+  };
+
+  const countryNames = typeof Intl !== "undefined" && Intl.DisplayNames
+    ? new Intl.DisplayNames(["en"], {type: "region"})
+    : null;
+
+  const COUNTRIES = ISO_COUNTRY_CODES
+    .map(code => [code, COUNTRY_NAME_OVERRIDES[code] || (countryNames ? countryNames.of(code) : code)])
+    .filter(pair => !!pair[1])
+    .sort((a, b) => a[1].localeCompare(b[1]));
+
+  const form = document.getElementById("aa-start-form");
+  const statusBox = document.getElementById("aa-start-status");
+  const submitBtn = document.getElementById("aa-start-submit");
+  const readyHint = document.getElementById("aa-ready-hint");
+  const singleFields = document.getElementById("aa-single-property-fields");
+  const multiFields = document.getElementById("aa-multi-property-fields");
+  const summaryRooms = document.getElementById("aa-summary-rooms");
+  const summaryFee = document.getElementById("aa-summary-fee");
+  const summaryVat = document.getElementById("aa-summary-vat");
+
+  if(!form || !statusBox || !submitBtn) return;
+
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const domainPattern = /^(?!-)(?:[a-zA-Z0-9-]{1,63}\.)+[A-Za-z]{2,}$/;
+  const vatPattern = /^[A-Z]{2}?[A-Z0-9.\-\s]{4,30}$/i;
+
+  function field(name){ return form.querySelector('[name="' + name + '"]'); }
+  function wrap(name){ return form.querySelector('.aa-field[data-field="' + name + '"]'); }
+  function value(name){ return String(field(name)?.value || "").trim(); }
+  function checked(name){ return !!field(name)?.checked; }
+  function selectedRadio(name){ return String(form.querySelector('[name="' + name + '"]:checked')?.value || "").trim(); }
+  function numberValue(name){ const n = Number(value(name)); return Number.isFinite(n) ? n : 0; }
+
+  function countryName(code){
+    const item = COUNTRIES.find(c => c[0] === code);
+    return item ? item[1] : "";
+  }
+
+  function populateCountries(selectId){
+    const el = document.getElementById(selectId);
+    if(!el) return;
+
+    const current = el.value;
+    el.innerHTML = '<option value="">Select country</option>';
+
+    COUNTRIES.forEach(([code, name]) => {
+      const opt = document.createElement("option");
+      opt.value = code;
+      opt.textContent = name;
+      el.appendChild(opt);
+    });
+
+    if(current) el.value = current;
+  }
+
+  populateCountries("aa-country");
+  populateCountries("aa-billing-country");
+
+  function normalisedVatNumber(){
+    return value("vat_number").replace(/\s+/g, "").toUpperCase();
+  }
+
+  function vatNumberRequired(){
+    const billingCountry = value("billing_country_code");
+    return !!billingCountry && billingCountry !== "CH";
+  }
+
+  function vatNumberLooksValid(){
+    const vat = normalisedVatNumber();
+    if(!vatNumberRequired() && !vat) return true;
+    return vatPattern.test(vat);
+  }
+
+  function deriveVatRegime(){
+    const billingCountry = value("billing_country_code");
+    const vatNumber = normalisedVatNumber();
+
+    if(!billingCountry){
+      return { code: "", label: "—" };
+    }
+
+    if(billingCountry === "CH"){
+      return { code: "CH_VAT", label: "Swiss VAT" };
+    }
+
+    if(vatNumber && vatNumberLooksValid()){
+      return { code: "REVERSE_CHARGE", label: "Reverse charge / no Swiss VAT" };
+    }
+
+    return {
+      code: "INTL_B2B_NO_SWISS_VAT_PENDING_VALIDATION",
+      label: "No Swiss VAT / VAT number required"
+    };
+  }
+
+  function roomCount(){
+    const setup = selectedRadio("property_setup");
+    if(setup === "single_property") return numberValue("single_rooms");
+    if(setup === "multi_property") return numberValue("total_rooms");
+    return 0;
+  }
+
+  function propertiesCount(){
+    const setup = selectedRadio("property_setup");
+    if(setup === "single_property") return 1;
+    if(setup === "multi_property") return numberValue("properties_count");
+    return 0;
+  }
+
+  function fullMonthlyAmount(){
+    return roomCount() * PRICE_PER_ROOM_EUR;
+  }
+
+  function estimatedProratedAmount(){
+    const monthly = fullMonthlyAmount();
+    if(monthly <= 0) return 0;
+
+    const now = new Date();
+    const billingAnchor = new Date(now.getFullYear(), now.getMonth() + 1, 0);
+    const periodStart = new Date(now.getFullYear(), now.getMonth(), 0);
+
+    const totalSeconds = Math.max(1, (billingAnchor - periodStart) / 1000);
+    const remainingSeconds = Math.max(0, (billingAnchor - now) / 1000);
+
+    return Math.round((monthly * remainingSeconds / totalSeconds) * 100) / 100;
+  }
+
+  function moneyEUR(v, decimals){
+    const amount = Number(v || 0);
+    return "€" + amount.toLocaleString("en-GB", {
+      minimumFractionDigits: decimals ? 2 : 0,
+      maximumFractionDigits: decimals ? 2 : 0
+    });
+  }
+
+  function setError(name, message){
+    const w = wrap(name);
+    if(!w) return;
+    w.classList.add("has-error");
+    const err = w.querySelector(".aa-error");
+    if(err && message) err.textContent = message;
+  }
+
+  function clearError(name){
+    wrap(name)?.classList.remove("has-error");
+  }
+
+  function clearAllErrors(){
+    [
+      "first_name","last_name","work_email","work_email_confirm",
+      "hotel_name","website_domain","country_code",
+      "legal_name","commercial_register_no","vat_number","billing_email",
+      "billing_address_line1","billing_address_line2","billing_postcode","billing_city","billing_state_region","billing_country_code",
+      "property_setup","single_rooms","properties_count","total_rooms",
+      "apaleo_confirmed","billing_confirmed","terms_confirmed","consent"
+    ].forEach(clearError);
+
+    statusBox.className = "aa-status";
+    statusBox.textContent = "";
+  }
+
+  function showStatus(type, msg){
+    statusBox.className = "aa-status " + (type === "success" ? "is-success" : "is-error");
+    statusBox.textContent = msg;
+  }
+
+  function prepareRoomSectionUX(){
+    const propertyWrap = wrap("property_setup");
+    if(!propertyWrap) return;
+
+    const label = propertyWrap.querySelector(".aa-label");
+    if(label){
+      label.innerHTML = 'Room count / property setup<span class="aa-required">*</span>';
+    }
+
+    const err = propertyWrap.querySelector(".aa-error");
+    if(err){
+      err.textContent = "Please select Single property or Multi-property / group.";
+    }
+
+    if(!document.getElementById("aa-room-count-title")){
+      const title = document.createElement("div");
+      title.id = "aa-room-count-title";
+      title.className = "aa-section-title";
+      title.textContent = "Room count";
+      propertyWrap.parentNode.insertBefore(title, propertyWrap);
+    }
+
+    if(!document.getElementById("aa-room-count-guidance")){
+      const guidance = document.createElement("div");
+      guidance.id = "aa-room-count-guidance";
+      guidance.className = "aa-help";
+      guidance.style.margin = "-6px 0 14px 0";
+      guidance.textContent = "Select your property setup, then enter the room count used for the initial billing estimate.";
+      propertyWrap.parentNode.insertBefore(guidance, propertyWrap);
+    }
+  }
+
+  function updatePropertyFields(){
+    const setup = selectedRadio("property_setup");
+
+    singleFields.classList.toggle("aa-hidden", setup !== "single_property");
+    multiFields.classList.toggle("aa-hidden", setup !== "multi_property");
+
+    updateSummary();
+  }
+
+  function updateSummary(){
+    const rooms = roomCount();
+    const prorated = estimatedProratedAmount();
+    const vat = deriveVatRegime();
+
+    if(rooms > 0){
+      summaryRooms.textContent = String(rooms);
+      summaryFee.textContent = moneyEUR(prorated, true) + " estimated pro-rata today";
+      submitBtn.textContent = "Continue to secure billing setup — estimated pro-rata charge approx. " + moneyEUR(prorated, true) + " today";
+    }else{
+      summaryRooms.textContent = "—";
+      summaryFee.textContent = "—";
+      submitBtn.textContent = "Continue to secure billing setup";
+    }
+
+    if(summaryVat){
+      summaryVat.textContent = vat.label;
+    }
+  }
+
+  function emailVerified(){
+    const email = value("work_email");
+    const confirm = value("work_email_confirm");
+    return emailPattern.test(email) &&
+           emailPattern.test(confirm) &&
+           email.toLowerCase() === confirm.toLowerCase();
+  }
+
+  function missingRequiredFields(){
+    const missing = [];
+    const setup = selectedRadio("property_setup");
+    const vatNumber = normalisedVatNumber();
+
+    if(!value("first_name")) missing.push("First name");
+    if(!value("last_name")) missing.push("Last name");
+    if(!emailVerified()) missing.push("Matching work email confirmation");
+
+    if(!value("hotel_name")) missing.push("Hotel / trading name");
+    if(!value("country_code")) missing.push("Hotel country");
+    if(!domainPattern.test(value("website_domain"))) missing.push("Valid website domain");
+
+    if(!value("legal_name")) missing.push("Legal company name");
+    if(!emailPattern.test(value("billing_email"))) missing.push("Valid billing email");
+    if(!value("billing_address_line1")) missing.push("Billing address");
+    if(!value("billing_postcode")) missing.push("Postcode / ZIP");
+    if(!value("billing_city")) missing.push("City");
+    if(!value("billing_country_code")) missing.push("Billing country");
+
+    if(vatNumberRequired() && !vatNumber) missing.push("VAT / tax number");
+    if(vatNumber && !vatNumberLooksValid()) missing.push("Valid VAT / tax number format");
+
+    if(!setup) missing.push("Room count / property setup");
+
+    if(setup === "single_property" && numberValue("single_rooms") < 1){
+      missing.push("Number of rooms");
+    }
+
+    if(setup === "multi_property"){
+      if(numberValue("properties_count") < 2) missing.push("Number of properties");
+      if(numberValue("total_rooms") < 1) missing.push("Total number of rooms");
+    }
+
+    if(!checked("apaleo_confirmed")) missing.push("Apaleo confirmation");
+    if(!checked("billing_confirmed")) missing.push("Subscription summary confirmation");
+    if(!checked("terms_confirmed")) missing.push("Terms & Conditions acceptance");
+    if(!checked("consent")) missing.push("Consent confirmation");
+
+    return missing;
+  }
+
+  function updateReadyHint(){
+    if(!readyHint) return;
+
+    const missing = missingRequiredFields();
+
+    if(missing.length === 0){
+      readyHint.style.display = "none";
+      readyHint.textContent = "";
+      return;
+    }
+
+    readyHint.style.display = "block";
+    readyHint.textContent = "To continue, please complete: " + missing.join(", ") + ".";
+  }
+
+  function formReady(){
+    return missingRequiredFields().length === 0 && roomCount() > 0;
+  }
+
+  function refreshState(){
+    updatePropertyFields();
+
+    clearError("work_email");
+    clearError("work_email_confirm");
+    clearError("billing_email");
+    clearError("country_code");
+    clearError("billing_country_code");
+    clearError("vat_number");
+    clearError("property_setup");
+    clearError("single_rooms");
+    clearError("properties_count");
+    clearError("total_rooms");
+
+    const email = value("work_email");
+    const confirm = value("work_email_confirm");
+    const billingEmail = value("billing_email");
+    const vatNumber = normalisedVatNumber();
+    const setup = selectedRadio("property_setup");
+
+    if(email && !emailPattern.test(email)){
+      setError("work_email", "Please enter a valid email address.");
+    }
+
+    if(confirm && !emailPattern.test(confirm)){
+      setError("work_email_confirm", "Please enter a valid email address.");
+    }
+
+    if(email && confirm && emailPattern.test(email) && emailPattern.test(confirm) && email.toLowerCase() !== confirm.toLowerCase()){
+      setError("work_email_confirm", "Emails don't match.");
+    }
+
+    if(billingEmail && !emailPattern.test(billingEmail)){
+      setError("billing_email", "Please enter a valid billing email.");
+    }
+
+    if(vatNumberRequired() && !vatNumber){
+      setError("vat_number", "VAT / tax number is required for non-Swiss business customers.");
+    }
+
+    if(vatNumber && !vatNumberLooksValid()){
+      setError("vat_number", "Please enter a valid VAT / tax number format.");
+    }
+
+    if(!setup){
+      setError("property_setup", "Please select Single property or Multi-property / group.");
+    }
+
+    if(setup === "single_property" && value("single_rooms") && numberValue("single_rooms") < 1){
+      setError("single_rooms", "Please enter the number of rooms.");
+    }
+
+    if(setup === "multi_property"){
+      if(value("properties_count") && numberValue("properties_count") < 2){
+        setError("properties_count", "Please enter at least 2 properties.");
+      }
+      if(value("total_rooms") && numberValue("total_rooms") < 1){
+        setError("total_rooms", "Please enter the total number of rooms.");
+      }
+    }
+
+    submitBtn.disabled = !formReady();
+    updateReadyHint();
+  }
+
+  function validate(){
+    clearAllErrors();
+    updatePropertyFields();
+
+    const missing = missingRequiredFields();
+    let ok = missing.length === 0 && roomCount() > 0;
+
+    const setup = selectedRadio("property_setup");
+    const email = value("work_email");
+    const confirm = value("work_email_confirm");
+    const vatNumber = normalisedVatNumber();
+
+    if(!value("first_name")) setError("first_name", "Please enter your first name.");
+    if(!value("last_name")) setError("last_name", "Please enter your last name.");
+
+    if(!emailPattern.test(email)) setError("work_email", "Please enter a valid email address.");
+
+    if(!emailPattern.test(confirm)){
+      setError("work_email_confirm", "Please enter a valid email address.");
+    }else if(email.toLowerCase() !== confirm.toLowerCase()){
+      setError("work_email_confirm", "Emails don't match.");
+    }
+
+    if(!value("hotel_name")) setError("hotel_name", "Please enter your hotel or trading name.");
+    if(!value("country_code")) setError("country_code", "Please select the hotel country.");
+    if(!domainPattern.test(value("website_domain"))) setError("website_domain", "Please enter a valid domain.");
+
+    if(!value("legal_name")) setError("legal_name", "Please enter the registered legal company name.");
+    if(!emailPattern.test(value("billing_email"))) setError("billing_email", "Please enter a valid billing email.");
+    if(!value("billing_address_line1")) setError("billing_address_line1", "Please enter the billing address.");
+    if(!value("billing_postcode")) setError("billing_postcode", "Please enter the postcode.");
+    if(!value("billing_city")) setError("billing_city", "Please enter the city.");
+    if(!value("billing_country_code")) setError("billing_country_code", "Please select the billing country.");
+
+    if(vatNumberRequired() && !vatNumber){
+      setError("vat_number", "VAT / tax number is required for non-Swiss business customers.");
+    }else if(vatNumber && !vatNumberLooksValid()){
+      setError("vat_number", "Please enter a valid VAT / tax number format.");
+    }
+
+    if(!setup){
+      setError("property_setup", "Please select Single property or Multi-property / group.");
+    }
+
+    if(setup === "single_property" && numberValue("single_rooms") < 1){
+      setError("single_rooms", "Please enter the number of rooms.");
+    }
+
+    if(setup === "multi_property"){
+      if(numberValue("properties_count") < 2){
+        setError("properties_count", "Please enter at least 2 properties.");
+      }
+      if(numberValue("total_rooms") < 1){
+        setError("total_rooms", "Please enter the total number of rooms.");
+      }
+    }
+
+    if(!checked("apaleo_confirmed")) setError("apaleo_confirmed", "Please confirm Apaleo availability.");
+    if(!checked("billing_confirmed")) setError("billing_confirmed", "Please confirm the subscription summary.");
+    if(!checked("terms_confirmed")) setError("terms_confirmed", "Please accept the Terms & Conditions.");
+    if(!checked("consent")) setError("consent", "Please confirm consent.");
+
+    submitBtn.disabled = !ok;
+    updateReadyHint();
+    return ok;
+  }
+
+  function buildPayload(){
+    const setup = selectedRadio("property_setup");
+    const rooms = roomCount();
+    const props = propertiesCount();
+    const hotelCountryCode = value("country_code");
+    const billingCountryCode = value("billing_country_code");
+    const vat = deriveVatRegime();
+
+    return {
+      contact: {
+        first_name: value("first_name"),
+        last_name: value("last_name"),
+        work_email: value("work_email"),
+        email_confirmed: true
+      },
+      hotel: {
+        name: value("hotel_name"),
+        legal_name: value("legal_name"),
+        website_domain: value("website_domain"),
+        website_url: "https://" + value("website_domain"),
+        country: countryName(hotelCountryCode),
+        country_code: hotelCountryCode,
+        pms: "apaleo",
+        apaleo_confirmed: checked("apaleo_confirmed")
+      },
+      billing: {
+        customer_type: "business",
+        legal_name: value("legal_name"),
+        commercial_register_no: value("commercial_register_no"),
+        vat_number: normalisedVatNumber(),
+        vat_regime: vat.code,
+        vat_regime_label: vat.label,
+        vat_validated: false,
+        billing_email: value("billing_email"),
+        billing_address_line1: value("billing_address_line1"),
+        billing_address_line2: value("billing_address_line2"),
+        billing_postcode: value("billing_postcode"),
+        billing_city: value("billing_city"),
+        billing_state_region: value("billing_state_region"),
+        billing_country: countryName(billingCountryCode),
+        billing_country_code: billingCountryCode
+      },
+      property_setup: {
+        type: setup,
+        properties_count: props,
+        declared_rooms_total: rooms
+      },
+      commercial: {
+        price_per_room_month_eur: PRICE_PER_ROOM_EUR,
+        amount_due_now_eur: rooms * PRICE_PER_ROOM_EUR,
+        estimated_prorated_amount_today_eur: estimatedProratedAmount(),
+        pricing_model: "eur_5_per_room_month_plus_2_percent_direct_booking_turnover",
+        performance_participation: "2_percent_direct_booking_turnover_billed_monthly_in_arrears",
+        billing_room_count_source: "customer_declared_initial_then_apaleo_units_inventory",
+        billing_summary_confirmed: checked("billing_confirmed"),
+        terms_confirmed: checked("terms_confirmed")
+      },
+      meta: {
+        source: "atlanticai_start_setup_v8_billing_vat_country_codes_prorata",
+        submitted_at: new Date().toISOString(),
+        page_url: window.location.href,
+        user_agent: navigator.userAgent,
+        consent: checked("consent")
+      }
+    };
+  }
+
+  form.addEventListener("input", refreshState);
+  form.addEventListener("change", refreshState);
+
+  field("work_email_confirm")?.addEventListener("paste", function(e){
+    e.preventDefault();
+  });
+
+  field("work_email")?.addEventListener("blur", function(){
+    if(!value("billing_email") && emailPattern.test(value("work_email"))){
+      field("billing_email").value = value("work_email");
+      refreshState();
+    }
+  });
+
+  field("country_code")?.addEventListener("change", function(){
+    if(!value("billing_country_code")){
+      field("billing_country_code").value = value("country_code");
+      refreshState();
+    }
+  });
+
+  field("vat_number")?.addEventListener("blur", function(){
+    if(field("vat_number")){
+      field("vat_number").value = normalisedVatNumber();
+      refreshState();
+    }
+  });
+
+  form.addEventListener("submit", async function(e){
+    e.preventDefault();
+
+    if(!validate()){
+      showStatus("error", "Please complete the highlighted fields. Make sure email entries match, legal company details are complete, and VAT / tax information is provided where required.");
+      refreshState();
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Starting…";
+
+    try{
+      const payload = buildPayload();
+
+      const res = await fetch(WEBHOOK_URL, {
+        method: "POST",
+        headers: {"Content-Type":"application/json"},
+        body: JSON.stringify(payload)
+      });
+
+      const text = await res.text();
+      let data = null;
+      try { data = JSON.parse(text); } catch(e){}
+
+      if(!res.ok){
+        throw new Error((data && (data.error || data.message)) || "Setup could not be started.");
+      }
+
+      if(data && data.checkout_url){
+        window.location.href = data.checkout_url;
+        return;
+      }
+
+      if(data && data.redirect_url){
+        window.location.href = data.redirect_url;
+        return;
+      }
+
+      throw new Error("Missing checkout URL from onboarding workflow.");
+    }catch(err){
+      console.error(err);
+      showStatus("error", "Setup could not be started right now. Please try again.");
+      refreshState();
+    }
+  });
+
+  prepareRoomSectionUX();
+  refreshState();
+})();
+</script>
+
+</main>
+
+
+
+
+<div id="aa-legal-footer">
+  <a href="/legal/">Legal Notice</a>
+  <a href="/privacy_policy/">Privacy Policy</a>
+  <a href="/data_processing/">Data Processing</a>
+  <a href="/terms/">Terms</a>
+  <a href="/contact/">Contact</a>
+</div>
+
+</body>
+</html>

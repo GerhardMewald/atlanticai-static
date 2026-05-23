@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlantic AI | Integrated Direct Booking, Payment & Data Infrastructure</title>
+  <meta name="description" content="Atlantic AI replaces fragmented hotel stacks with integrated direct booking, payment, tracking and commercial data infrastructure built on Apaleo.">
+  <link rel="canonical" href="https://atlanticai.eu/en/">
+  <link rel="alternate" hreflang="en" href="https://atlanticai.eu/en/">
+  <link rel="alternate" hreflang="de" href="https://atlanticai.eu/de/">
+  <link rel="alternate" hreflang="fr" href="https://atlanticai.eu/fr/">
+  <link rel="alternate" hreflang="es" href="https://atlanticai.eu/es/">
+  <link rel="alternate" hreflang="pt" href="https://atlanticai.eu/pt/">
+  <link rel="alternate" hreflang="it" href="https://atlanticai.eu/it/">
+  <link rel="alternate" hreflang="nl" href="https://atlanticai.eu/nl/">
+  <link rel="alternate" hreflang="no" href="https://atlanticai.eu/no/">
+  <link rel="alternate" hreflang="sv" href="https://atlanticai.eu/sv/">
+  <link rel="alternate" hreflang="da" href="https://atlanticai.eu/da/">
+  <link rel="stylesheet" href="/assets/css/atlanticai.css">
+  <script src="/assets/js/matomo.js" defer></script>
+  <script src="/assets/js/atlanticai.js" defer></script>
+</head>
+<body>
+<header class="aa-site-header">
+  <nav class="aa-nav" aria-label="Main navigation">
+    <a class="aa-logo" href="/en/">Atlantic AI</a>
+    <button class="aa-mobile-toggle" type="button" data-aa-menu-toggle>Menu</button>
+    <div class="aa-menu" data-aa-menu>
+      <a href="/en/">Home</a>
+      <a href="/en/use-cases.html">Use cases</a>
+      <a href="/en/pricing.html">Pricing</a>
+      <a href="/en/roi-calculator.html">ROI calculator</a>
+      <a href="/en/contact.html">Contact</a>
+    </div>
+    <div class="aa-lang-wrap" data-aa-lang-wrap>
+      <button class="aa-lang-btn" type="button" aria-haspopup="true" aria-expanded="false" data-aa-lang-btn>
+        <span>Português</span>
+        <span class="aa-lang-arrow" aria-hidden="true">⌄</span>
+      </button>
+      <div class="aa-lang-menu" hidden data-aa-lang-menu>
+        <a href="/en/">English</a>
+        <a href="/de/">Deutsch</a>
+        <a href="/es/">Español</a>
+        <a href="/fr/">Français</a>
+        <a href="/it/">Italiano</a>
+        <a href="/nl/">Nederlands</a>
+        <a href="/no/">Norsk</a>
+        <a href="/pt/">Português</a>
+        <a href="/sv/">Svenska</a>
+        <a href="/da/">Dansk</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="aa-home-hero">
+<div class="aa-shell">
+  <div class="aa-hero">
+    <div class="aa-eyebrow">Most hotels did not create this problem. The IT market did.</div>
+    <h1>Hospitality stacks became fragmented.<br>Atlantic AI turns them into one direct booking system.</h1>
+    <p class="aa-subhead">
+      Hotels are usually forced to assemble their commercial stack vendor by vendor: website agency, booking engine, PMS, PSP, analytics, automation tools, and then another integration project to make it all work together.<br><br>
+      The licence fee of each module may look small. The real cost is hidden in integration work, vendor coordination, payment limitations, manual fixes, broken data continuity, and systems that never quite become one controllable commercial process.<br><br>
+      Atlantic AI replaces that fragmented setup with one integrated direct booking and payment infrastructure layer built on Apaleo — website, IBE, PMS connection, PSP logic, analytics, and commercial data continuity in one system.
+    </p>
+    <div class="aa-cta-row">
+      <a class="aa-btn aa-btn-primary" href="https://travelerstreehotel.com/?ref=atlanticai&amp;entry=hero" target="_blank" rel="noopener" data-matomo-category="Home" data-matomo-action="CTA Click" data-matomo-name="Try Live Demo Hero">Try the live demo</a>
+      <a class="aa-btn aa-btn-secondary" href="/en/roi-calculator.html?ref=hero" data-matomo-category="Home" data-matomo-action="CTA Click" data-matomo-name="Calculate Profit Impact Hero">Calculate profit impact</a>
+    </div>
+  </div>
+
+  <div class="aa-hi-shell">
+    <div class="aa-hi-head">
+      <div class="aa-hi-kicker">The economic logic</div>
+      <h2 class="aa-hi-title">Turn more bookings into <em>profit.</em></h2>
+      <p class="aa-hi-sub">Direct booking shift protects margin. AI upsell creates the largest revenue uplift. Automation reduces manual workload.</p>
+      <div class="aa-hi-scenario">Typical 70-key hotel · €90 ADR · 65% occupancy</div>
+    </div>
+    <div class="aa-hi-board" aria-label="Atlantic AI home intro infographic">
+      <svg viewBox="0 0 1180 430" preserveAspectRatio="xMidYMid meet" role="img">
+        <path class="aa-flow" d="M174,147 C222,147 250,147 294,147" stroke-width="18"></path><path class="aa-flow-strong" d="M476,147 C520,147 548,112 590,112" stroke-width="13"></path><path class="aa-flow-strong" d="M476,147 C520,147 548,194 590,194" stroke-width="28"></path><path class="aa-flow" d="M476,147 C520,147 548,278 590,278" stroke-width="7"></path><path class="aa-flow-strong" d="M770,112 C812,112 832,178 850,178" stroke-width="13"></path><path class="aa-flow-strong" d="M770,194 C812,194 832,178 850,178" stroke-width="28"></path><path class="aa-flow" d="M770,278 C812,278 832,178 850,178" stroke-width="7"></path><path class="aa-flow-strong" d="M982,178 C998,178 1006,178 1018,178" stroke-width="34"></path>
+        <rect class="aa-box" x="20" y="62" width="154" height="190" rx="14"></rect><text class="aa-k" x="97" y="88" text-anchor="middle">Today</text><text class="aa-h" x="97" y="116" text-anchor="middle">High OTA dependency</text><text class="aa-big" x="97" y="150" text-anchor="middle">€1,419,941</text><text class="aa-small" x="97" y="172" text-anchor="middle">annual room revenue</text><text class="aa-small" x="97" y="187" text-anchor="middle">controlled by OTAs</text><line x1="46" y1="202" x2="148" y2="202" stroke="#e2d9cf"></line><text class="aa-big" x="97" y="228" text-anchor="middle" style="font-size:24px;">15%</text><text class="aa-small" x="97" y="247" text-anchor="middle">average OTA commission</text>
+        <rect class="aa-box" x="294" y="62" width="182" height="190" rx="14"></rect><text class="aa-k" x="385" y="88" text-anchor="middle">Direct booking shift</text><text class="aa-h" x="385" y="116" text-anchor="middle">Revenue moved direct</text><text class="aa-big" x="385" y="150" text-anchor="middle">€523,136</text><text class="aa-small" x="385" y="172" text-anchor="middle">35% direct-share gain</text><line x1="324" y1="202" x2="446" y2="202" stroke="#e2d9cf"></line><text class="aa-big" x="385" y="228" text-anchor="middle" style="font-size:24px;">€78,470</text><text class="aa-small" x="385" y="249" text-anchor="middle">commission recovered p.a.</text>
+        <rect class="aa-box aa-box-contribution" x="590" y="52" width="180" height="76" rx="13"></rect><text class="aa-k" x="680" y="77" text-anchor="middle">Margin recovery</text><text class="aa-big" x="680" y="106" text-anchor="middle" style="font-size:25px;">€78,470</text><text class="aa-small" x="680" y="124" text-anchor="middle">distribution cost reduction</text><rect class="aa-box aa-box-contribution" x="590" y="150" width="180" height="88" rx="13"></rect><text class="aa-k" x="680" y="176" text-anchor="middle">Revenue expansion</text><text class="aa-big" x="680" y="207" text-anchor="middle" style="font-size:29px;">€112,101</text><text class="aa-small" x="680" y="227" text-anchor="middle">7.5% AI upsell uplift</text><rect class="aa-box aa-box-soft" x="590" y="258" width="180" height="76" rx="13"></rect><text class="aa-k" x="680" y="283" text-anchor="middle">Operational savings</text><text class="aa-big" x="680" y="312" text-anchor="middle" style="font-size:25px;">€10,000</text><text class="aa-small" x="680" y="330" text-anchor="middle">0.5 FTE workload reduction</text>
+        <rect class="aa-box aa-box-contribution" x="850" y="118" width="132" height="120" rx="14"></rect><text class="aa-k" x="916" y="145" text-anchor="middle">Gross benefit</text><text class="aa-big" x="916" y="181" text-anchor="middle" style="font-size:27px;">€200,571</text><text class="aa-small" x="916" y="203" text-anchor="middle">before Atlantic AI</text><text class="aa-small" x="916" y="219" text-anchor="middle">cost</text>
+        <rect class="aa-box aa-box-final" x="1018" y="96" width="142" height="164" rx="14"></rect><text class="aa-k aa-final-text" x="1089" y="122" text-anchor="middle">Net impact</text><text class="aa-final-big" x="1089" y="158" text-anchor="middle">€183,466</text><text class="aa-small-light" x="1089" y="180" text-anchor="middle">profit increase</text><line x1="1042" y1="196" x2="1136" y2="196" stroke="#ffffff" opacity=".25"></line><text class="aa-h aa-final-text" x="1089" y="220" text-anchor="middle" style="font-size:15px;">12.3% RoS</text><text class="aa-small-light" x="1089" y="239" text-anchor="middle">11.7x multiple</text>
+        <rect class="aa-box aa-box-soft" x="850" y="262" width="132" height="64" rx="13"></rect><text class="aa-k" x="916" y="286" text-anchor="middle">Investment</text><text class="aa-h" x="916" y="310" text-anchor="middle">−€17,105</text><text class="aa-small" x="916" y="326" text-anchor="middle">~3.3% of shifted revenue</text><path class="aa-flow" d="M982,294 C998,294 1006,230 1018,230" stroke-width="9"></path>
+        <rect class="aa-bottom-box" x="20" y="364" width="1140" height="48" rx="14"></rect><line x1="305" y1="364" x2="305" y2="412" stroke="#ddd4c8"></line><line x1="590" y1="364" x2="590" y2="412" stroke="#ddd4c8"></line><line x1="875" y1="364" x2="875" y2="412" stroke="#ddd4c8"></line><text class="aa-bottom-title" x="98" y="385">Protect Margin</text><text class="aa-bottom-small" x="98" y="400">Reduce OTA leakage</text><text class="aa-bottom-title" x="383" y="385">Grow Revenue</text><text class="aa-bottom-small" x="383" y="400">AI upsell is the largest value lever</text><text class="aa-bottom-title" x="668" y="385">Save Time &amp; Costs</text><text class="aa-bottom-small" x="668" y="400">Automate repetitive communication</text><text class="aa-bottom-title" x="953" y="385">One Connected System</text><text class="aa-bottom-small" x="953" y="400">Website, booking, payment &amp; data</text>
+      </svg>
+    </div>
+    <div class="aa-hi-cta"><a class="aa-hi-btn" href="/en/roi-calculator.html?ref=home_infographic_cta" data-matomo-category="Home" data-matomo-action="CTA Click" data-matomo-name="Calculate Profit Impact Hero Infographic">Calculate profit impact for your hotel</a></div>
+  </div>
+</div>
+</section>
+
+<section class="aa-lp">
+  <div class="aa-shell">
+    <div class="aa-section">
+      <div class="aa-grid-3">
+        <div class="aa-card aa-card-soft"><div class="aa-label">What is really in the box?</div><h2>Not another €1 booking module.</h2><p>The licence fee of a booking engine is usually the smallest part of the real cost. The expensive part is making website, booking, PMS, payment, analytics, and data work together.</p></div>
+        <div class="aa-card aa-card-soft"><div class="aa-label">The hidden cost</div><h2>Every gap becomes a project.</h2><p>A fragmented stack creates integration work, vendor coordination, unclear ownership, payment edge cases, manual fixes, and permanent maintenance risk.</p></div>
+        <div class="aa-card aa-card-soft"><div class="aa-label">Atlantic AI</div><h2>One integrated commercial layer.</h2><p>Atlantic AI gives Apaleo hotels a ready integrated direct booking and PSP infrastructure layer: website, IBE, PMS connection, payment logic, analytics, and data continuity.</p></div>
+      </div>
+    </div>
+
+    <div class="aa-section">
+      <div class="aa-section-head"><div class="aa-label">The fragmented stack problem</div><h2>What looks cheap module by module becomes expensive system by system.</h2><p>Most hotels do not consciously choose fragmentation. They arrive there because the market sells functional modules separately. Each tool may look reasonable on its own. The total cost appears later: implementation time, integration uncertainty, vendor lock-in, operational stress, and systems that never fully feel finished.</p></div>
+      <div class="aa-stack-table">
+        <div class="aa-stack-row aa-stack-head"><div>Layer</div><div>Typical fragmented route</div><div>Visible price</div><div>Hidden TCO / pain</div></div>
+        <div class="aa-stack-row"><div><strong>Website</strong>Commercial front door</div><div>PR / web agency builds a hotel website as a project.</div><div class="aa-cost">€5k–30k upfront<br>often 2–6 months</div><div>Briefing rounds, content delays, agency dependency, redesign risk, conversion logic often not deeply connected to booking.</div></div>
+        <div class="aa-stack-row"><div><strong>Booking engine</strong>Direct booking and payment execution</div><div>Separate IBE module, often marketed as a low-cost “direct booking solution”.</div><div class="aa-cost">Low monthly licence<br>sometimes ~€1/room/month</div><div>The module itself does not create a functioning end-to-end direct booking channel.<br><br>Hotels still need the surrounding commercial infrastructure: conversion-oriented website integration, PMS connectivity, payment execution, tracking, analytics, operational ownership, and data continuity.<br><br>Most critically, direct bookings only become economically real when pre-payments successfully reach the hotel’s bank account through a working merchant acquiring and PSP setup.<br><br>Global providers such as Stripe, Adyen, or Apaleo Pay are not available in every market. Local PSPs often must be used for regulatory, banking, or acquiring reasons — and these integrations are frequently complex fintech projects with different APIs, hosted payment flows, reconciliation logic, callback handling, refund processes, compliance requirements, and operational constraints.</div></div>
+        <div class="aa-stack-row"><div><strong>PMS</strong>Operational core</div><div>Apaleo provides the open PMS foundation.</div><div class="aa-cost">Core PMS cost</div><div>The PMS is usually not the problem — provided it is genuinely API-first and operationally open. The real complexity starts around it: direct booking conversion, payment execution, attribution, analytics, guest communication, and continuity across systems.<br><br>In large parts of the hospitality industry, getting consistent, usable access to your own operational and commercial data is still far more difficult than it should be.</div></div>
+        <div class="aa-stack-row"><div><strong>Payment provider</strong>Merchant account and PSP execution</div><div>Stripe, Adyen, or Apaleo Pay work well in some markets. Many hotels must use local PSPs because of banking, regulation, or acquiring realities.</div><div class="aa-cost">Usually 2–4% PSP fee<br>plus integration effort</div><div>The module price does not include PSP reality.<br><br>Local PSPs often require completely different technical and operational models: hosted payment pages, asynchronous confirmations, bank file reconciliation, local acquiring constraints, callback handling, refund logic, settlement mapping, and country-specific compliance requirements.<br><br>What looks like “just payment integration” often becomes a substantial FinTech integration project.</div></div>
+        <div class="aa-stack-row"><div><strong>Analytics</strong>Commercial visibility</div><div>Analytics tools are readily available and often added later as separate layers.</div><div class="aa-cost">Low tool cost<br>high integration effort</div><div>The real challenge is not finding dashboards. The real challenge is extracting fragmented data from multiple vendor silos and turning it into consistent, trustworthy, comparable commercial data.<br><br>Booking, payment, website, campaign, PMS, guest, and operational data often use different structures, identifiers, timestamps, and attribution logic.<br><br>Result: weak attribution, broken funnel visibility, unreliable reporting, and endless manual reconciliation work.</div></div>
+        <div class="aa-stack-row"><div><strong>Automation / AI</strong>Future productivity layer</div><div>Chatbots, workflows, CRM tools, upsell systems, and AI agents are usually added on top of fragmented operational stacks.</div><div class="aa-cost">Another subscription<br>another silo</div><div>Hotels must first earn the right to automate.<br><br>Without detailed, structured, high-quality long-term operational and commercial data, AI agents and machine learning systems do not receive the context required to automate workflows, understand guest behaviour, detect patterns, or optimize margin.<br><br>Fragmented systems produce fragmented intelligence. Data disappears into silos long before it becomes operational leverage.</div></div>
+        <div class="aa-stack-row"><div><strong>Integration ownership</strong>The part nobody wants</div><div>Someone must coordinate vendors, integrations, updates, outages, and operational continuity over time.</div><div class="aa-cost">Permanent hidden cost</div><div>Vendor ping-pong, unclear accountability, broken handovers, plugin conflicts, update risk, maintenance burden, and recurring “mini IT projects” whenever the business changes or another tool is introduced.<br><br>The software subscription is usually the smallest part of the real long-term system cost.</div></div>
+      </div>
+      <div class="aa-punchline"><strong>Cheap modules are easy to buy. Building and maintaining one reliable end-to-end commercial system is the expensive part.</strong></div>
+    </div>
+
+    <div class="aa-section">
+      <div class="aa-section-head"><div class="aa-label">What Atlantic AI provides</div><h2>One integrated direct booking and payment infrastructure layer built on Apaleo.</h2><p>Atlantic AI replaces fragmented vendor stacks, integration projects, and disconnected data silos with one connected commercial infrastructure for direct revenue generation, payment execution, and operational continuity.</p></div>
+      <div class="aa-grid-4">
+        <div class="aa-card"><div class="aa-num">01</div><h3>Conversion-oriented website hosted on our EU cloud infrastructure</h3><p>A professional, customizable, mobile-first hotel website, hosted on our EU cloud infrastructure and designed as part of one connected direct booking and revenue system — not just a brochure website.</p></div>
+        <div class="aa-card"><div class="aa-num">02</div><h3>Integrated direct booking flow</h3><p>Guests can search, select, book, and pre-pay in one connected flow with live availability, commercial logic, and operational continuity.</p></div>
+        <div class="aa-card"><div class="aa-num">03</div><h3>Apaleo operational connection</h3><p>Inventory, reservation context, guest data, folios, and operational workflows connected directly to the open PMS foundation.</p></div>
+        <div class="aa-card"><div class="aa-num">04</div><h3>PSP adapter infrastructure</h3><p>Payment execution designed for real-world market conditions, including local PSPs, banking constraints, and country-specific payment realities.</p></div>
+        <div class="aa-card"><div class="aa-num">05</div><h3>Commercial event tracking</h3><p>Structured tracking across search, date selection, offers, booking path, payment execution, attribution, and revenue outcome.</p></div>
+        <div class="aa-card"><div class="aa-num">06</div><h3>End-to-end data continuity</h3><p>Booking, payment, guest, offer, and workflow data preserved as one usable operational and commercial history instead of disappearing into silos.</p></div>
+        <div class="aa-card"><div class="aa-num">07</div><h3>Automation-ready foundation</h3><p>Clean, structured, long-term data enables realistic upselling, guest communication, workflow automation, analytics, and future AI systems.</p></div>
+        <div class="aa-card"><div class="aa-num">08</div><h3>Reduced integration burden</h3><p>Fewer vendors, fewer handovers, fewer integration projects, less coordination overhead, and significantly lower long-term operational complexity.</p></div>
+      </div>
+      <div class="aa-system-line"><span>Website</span><span class="aa-arrow">→</span><span>IBE</span><span class="aa-arrow">→</span><span>Apaleo PMS</span><span class="aa-arrow">→</span><span>PSP logic</span><span class="aa-arrow">→</span><span>Analytics</span><span class="aa-arrow">→</span><span>Data continuity</span><span class="aa-arrow">→</span><span>Automation readiness</span></div>
+      <div class="aa-punchline"><strong>What hotels usually buy as separate functions, Atlantic AI delivers as one connected direct booking and payment system.</strong></div>
+    </div>
+
+    <div class="aa-section"><div class="aa-compare-grid"><div class="aa-card aa-muted-col"><div class="aa-label">Typical fragmented setup</div><h3>Low module prices, high ownership burden</h3><ul><li>Website agency project</li><li>Separate IBE module</li><li>Separate PSP onboarding and integration</li><li>PMS connection with partial commercial coverage</li><li>Analytics added after the fact</li><li>Automation tools without full context</li><li>Data split across vendors</li><li>Permanent coordination and maintenance burden</li></ul></div><div class="aa-card aa-highlight-col"><div class="aa-label">Atlantic AI setup</div><h3>Integrated infrastructure, measurable commercial impact</h3><ul><li>Website + booking flow designed as one direct channel</li><li>Apaleo-native commercial infrastructure</li><li>PSP adapter logic for real-world market conditions</li><li>Event-based analytics and funnel visibility</li><li>Commercial data continuity across the guest journey</li><li>Foundation for upsell, automation, and AI workflows</li><li>Lower operational friction</li><li>~2.7% effective cost in the modelled scenario vs. 15–25% OTA dependency</li></ul></div></div></div>
+
+    <div class="aa-section"><div class="aa-card aa-card-soft"><div class="aa-label">Pricing logic</div><h2>Why €5 per room per month + 2% direct booking revenue is not an IBE price.</h2><p>It is the price of replacing a fragmented hotel stack consisting of:</p><ul class="aa-inline-list"><li>Website vendor / PR agency</li><li>Website ↔ IBE integration</li><li>IBE vendor</li><li>IBE ↔ PMS integration</li><li>PSP / merchant acquiring setup</li><li>PSP ↔ IBE payment integration</li><li>Analytics and attribution setup</li><li>Tracking and event integration</li><li>CRM / automation tooling</li><li>Data synchronization across systems</li><li>Permanent maintenance and vendor coordination</li></ul><p>with one integrated direct booking, payment, tracking, and data infrastructure layer built on Apaleo.</p><p>Most hotels can track pageviews. Very few can operationally connect the full commercial funnel:<br><strong>search → offer visibility → offer selection → checkout → payment → booking outcome → guest revenue history</strong></p><p>Atlantic AI enables hotels to execute direct bookings and receive payments as one connected commercial process — including markets where global PSP assumptions fail.</p><p><strong>At the same time, hotels regain ownership of their operational and commercial data instead of losing it across disconnected vendor silos.</strong></p><p>That continuity reduces total cost of ownership, protects margin today, and creates the <strong>structured long-term data foundation required for meaningful AI, machine learning, and agentic automation</strong> tomorrow.</p><p>In the modelled 70-key scenario, Atlantic AI equals roughly 2.7–3.3% only on measurably shifted direct booking revenue after infrastructure fee and revenue share — compared with typical OTA dependency at 15–25%.</p><div class="aa-cta-row"><a class="aa-btn aa-btn-primary" href="/en/roi-calculator.html?ref=body_tco" data-matomo-category="Home" data-matomo-action="CTA Click" data-matomo-name="Calculate Profit Impact Body TCO">Calculate Your profit impact</a><a class="aa-btn aa-btn-secondary" href="/en/pricing.html" data-matomo-category="Home" data-matomo-action="CTA Click" data-matomo-name="View Pricing Body">View pricing</a></div></div></div>
+  </div>
+</section>
+</main>
+
+<footer class="aa-site-footer">
+  <div class="aa-footer-inner">
+    <div><strong>Atlantic AI</strong><div class="aa-footer-small">Integrated direct booking, payment, tracking and commercial data infrastructure for hotels built on Apaleo.</div></div>
+    <div class="aa-footer-links"><a href="/en/">Home</a><a href="/en/use-cases.html">Use cases</a><a href="/en/pricing.html">Pricing</a><a href="/en/contact.html">Contact</a><a href="/en/legal.html">Legal</a></div>
+  </div>
+</footer>
+</body>
+</html>

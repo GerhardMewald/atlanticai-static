@@ -1,0 +1,12 @@
+(function(){
+  const toggle=document.querySelector('[data-aa-menu-toggle]');
+  const menu=document.querySelector('[data-aa-menu]');
+  if(toggle&&menu){toggle.addEventListener('click',()=>menu.classList.toggle('is-open'));}
+  const lang=document.querySelector('[data-aa-lang]');
+  if(lang){lang.addEventListener('change',()=>{ if(lang.value) window.location.href=lang.value; });}
+  document.addEventListener('click',function(e){
+    const el=e.target.closest('[data-matomo-category]');
+    if(!el || !window._paq) return;
+    window._paq.push(['trackEvent', el.getAttribute('data-matomo-category')||'CTA', el.getAttribute('data-matomo-action')||'Click', el.getAttribute('data-matomo-name')||el.href||el.textContent.trim()]);
+  });
+})();
